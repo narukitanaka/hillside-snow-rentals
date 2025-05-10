@@ -18,7 +18,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><a href=\"#shopify-section-template--18391726751925__rich_text_zBQKq6\" title=\"#shopify-section-template--18391726751925__rich_text_zBQKq6\"><strong>Goryu <\/strong><\/a>　<a href=\"#shopify-section-template--18391726751925__rich_text_WVbwBP\" title=\"#shopify-section-template--18391726751925__rich_text_WVbwBP\"><strong>Tsugaike<\/strong><\/a><\/p>"
+            "text": "<p><a href=\"#shopify-section-template--18391726751925__rich_text_zBQKq6\" title=\"#shopify-section-template--18391726751925__rich_text_zBQKq6\"><strong>五竜店<\/strong><\/a>　<a href=\"#shopify-section-template--18391726751925__rich_text_WVbwBP\" title=\"#shopify-section-template--18391726751925__rich_text_WVbwBP\"><strong>栂池店<\/strong><\/a><\/p>"
           }
         }
       },
@@ -29,7 +29,8 @@
       "custom_css": [
         ".enlarge-text p {display: flex; justify-content: center; gap: 20px;}",
         ".enlarge-text a {color: #3a6c6c;}",
-        ".enlarge-text a::before {position: absolute; top: 15px; right: -25px; width: 0; height: 0; border-style: solid; border-right: 7px solid transparent; border-left: 7px solid transparent; border-top: 10px solid #3a6c60; border-bottom: 0;}"
+        ".enlarge-text a::before {position: absolute; top: 15px; right: -25px; width: 0; height: 0; border-style: solid; border-right: 7px solid transparent; border-left: 7px solid transparent; border-top: 10px solid #3a6c60; border-bottom: 0;}",
+        "@media only screen and (max-width: 589px) {.index-section {margin-bottom: 80px; }}"
       ],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
@@ -61,7 +62,8 @@
       ],
       "custom_css": [
         ".index-section {padding-top: 150px; margin-top: -150px; margin-bottom: 40px;}",
-        "p {font-size: 18px;}"
+        "p {font-size: 18px;}",
+        "@media only screen and (max-width: 589px) {p {font-size: 15px; }}"
       ],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
@@ -73,15 +75,16 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slideshow-0": {
+        "image_PP9AGX": {
           "type": "image",
           "settings": {
             "title": "",
-            "title_size": 40,
+            "title_size": 80,
             "subheading": "",
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/pixta_100361393.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -95,18 +98,19 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/pixta_70273406.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slideshow-0",
+        "image_PP9AGX",
         "image_dPPNTh"
       ],
       "settings": {
         "section_height": "450px",
-        "mobile_height": "auto",
+        "mobile_height": "250px",
         "parallax": true,
         "style": "arrows",
         "autoplay": true,
@@ -120,7 +124,7 @@
         "image_9aBjcX": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_5067-scaled_00d5bfbd-8ba2-48c9-adf8-653ee884f681.jpg",
+            "image": "shopify:\/\/shop_images\/goryu_shop_img01.jpg",
             "link": "",
             "width": "33%",
             "alignment": "top-middle"
@@ -176,7 +180,8 @@
       ],
       "custom_css": [
         ".index-section {padding-top: 150px; margin-top: -150px; margin-bottom: 40px;}",
-        "p {font-size: 18px;}"
+        "p {font-size: 18px;}",
+        "@media only screen and (max-width: 589px) {p {font-size: 15px; }}"
       ],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
@@ -197,6 +202,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/pixta_100361393.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -210,6 +216,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/pixta_70273406.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -222,7 +229,7 @@
       "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
       "settings": {
         "section_height": "450px",
-        "mobile_height": "auto",
+        "mobile_height": "250px",
         "parallax": true,
         "style": "arrows",
         "autoplay": true,

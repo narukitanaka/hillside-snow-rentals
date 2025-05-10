@@ -18,7 +18,7 @@
           "settings": {
             "title": "ご注文・ご予約について",
             "text": "",
-            "align_text": "center"
+            "align_text": "left"
           }
         },
         "faq-1": {
@@ -47,7 +47,7 @@
           "settings": {
             "title": "商品・サイズについて",
             "text": "",
-            "align_text": "center"
+            "align_text": "left"
           }
         },
         "faq-4": {
@@ -76,7 +76,7 @@
           "settings": {
             "title": "お支払い・変更について",
             "text": "",
-            "align_text": "center"
+            "align_text": "left"
           }
         },
         "question_qnmNRc": {
@@ -116,11 +116,14 @@
         "question_MWXBfr"
       ],
       "custom_css": [
+        ".section-header__title {font-weight: 700; text-align: left; padding-bottom: 20px; border-bottom: 2px solid #111;}",
+        ".h2 {font-size: 24px; margin-bottom: 0; padding-left: 15px;}",
         ".collapsible-trigger--inline {width: 100%; color: #fff; padding: 15px 0 15px 30px; background-color: #3a6c6c; margin-bottom: 20px;}",
-        ".collapsible-trigger--inline .collapsible-trigger__icon {left: 10px;}"
+        ".collapsible-trigger--inline .collapsible-trigger__icon {left: 10px;}",
+        "@media only screen and (max-width: 589px) {.h2 {font-size: 18px !important; padding-left: 0; margin-bottom: -20px; }}"
       ],
       "settings": {
-        "title": "FAQ"
+        "title": "よくあるご質問"
       }
     }
   },
