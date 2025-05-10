@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "brands_list_ApiymE": {
+      "type": "brands-list",
+      "blocks": {
+        "brand_XwyWEy": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/brand-salomon.png",
+            "logo_url": "https:\/\/salomon.jp\/",
+            "rich_text_content": "<p>どのレンタルプランで取り扱いがあるかなどを記載する？<br\/>リッチテキストに入力がある場合のみモーダルボタンが表示される。<\/p>"
+          }
+        },
+        "brand_Nk8bNj": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/brand-moss.png",
+            "logo_url": "",
+            "rich_text_content": "<p>hallo！動作確認！<\/p>"
+          }
+        },
+        "brand_xgpaxp": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/brand-jones.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_XwyWEy",
+        "brand_Nk8bNj",
+        "brand_xgpaxp"
+      ],
+      "name": "Brand List",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "brands_list_ApiymE"
+  ]
+}

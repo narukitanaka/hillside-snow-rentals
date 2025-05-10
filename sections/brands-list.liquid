@@ -1,0 +1,180 @@
+<section class="brand-list">
+  <div class="page-width">
+    <div class="bl-contents">
+
+    {% for block in section.blocks %}
+      <div class="box">
+      {% if block.settings.logo_url %}
+        <a href="{{ block.settings.logo_url }}" target="_blank">
+      {% endif %}
+        <div class="img-box">
+        <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="">
+        </div>
+      {% if block.settings.logo_url %}
+        </a>
+      {% endif %}
+      {% if block.settings.rich_text_content != blank %}
+        <div class="btn-wrap">
+        <button class="modal-trigger" data-modal-id="modal-{{ block.id }}">
+          Information
+        </button>
+        </div>
+      {% endif %}
+      </div>
+
+      <!-- モーダル -->
+      {% if block.settings.rich_text_content != blank %}
+      <div id="modal-{{ block.id }}" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal-id="modal-{{ block.id }}">&times;</span>
+        <div class="modal-text">
+        {{ block.settings.rich_text_content }}
+        </div>
+      </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+
+    </div>
+  </div>
+
+  <style>
+    .brand-list {
+      padding-bottom: 150px;
+    }
+    .bl-contents {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .bl-contents .box {
+      width: calc((100% / 6) - (30px * 5 / 6));
+    }
+    .bl-contents .box .img-box {
+      background-color: #fff;
+      box-shadow: 0px 0px 10px 0px #e0e0e0;
+    }
+    .bl-contents .box .img-box img {
+      width: 100%;
+      vertical-align: middle;
+    }
+    .btn-wrap {
+      margin-top: 10px;
+    }
+    .modal-trigger {
+      width: 100%;
+      color: #fff;
+      background-color: #3a6c6c;
+      padding: 5px 10px;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .modal-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      width: 90%;
+    }
+    .modal-content {
+      color: #011229;
+    }
+    .modal .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    @media only screen and (max-width: 589px) {
+      .brand-list {
+        padding-bottom: 120px;
+      }
+      .bl-contents {
+        gap: 15px;
+      }
+      .bl-contents .box {
+        width: calc((100% / 3) - (15px * 2 / 3));
+      }
+      .modal-trigger {
+        font-size: 14px;
+      }
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const triggers = document.querySelectorAll('.modal-trigger');
+      const modals = document.querySelectorAll('.modal');
+      const closeButtons = document.querySelectorAll('.modal .close');
+
+      triggers.forEach(trigger => {
+        trigger.addEventListener('click', function () {
+          const modalId = this.getAttribute('data-modal-id');
+          document.getElementById(modalId).style.display = 'flex';
+        });
+      });
+
+      closeButtons.forEach(button => {
+        button.addEventListener('click', function () {
+          const modalId = this.getAttribute('data-modal-id');
+          document.getElementById(modalId).style.display = 'none';
+        });
+      });
+
+      window.addEventListener('click', function (e) {
+        modals.forEach(modal => {
+          if (e.target === modal) {
+            modal.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</section>
+
+{% schema %}
+{
+  "name": "Brand List",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "brand",
+      "name": "ブランド情報",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "label": "ロゴ画像"
+        },
+        {
+          "type": "url",
+          "id": "logo_url",
+          "label": "リンク先URL"
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text_content",
+          "label": "説明"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand List"
+    }
+  ]
+}
+{% endschema %}
