@@ -1,0 +1,196 @@
+<section class="shop-lists">
+  <div class="flex">
+    {% comment %} {% for block in section.blocks %}
+      <div class="shop">
+        <picture>
+          <source srcset="{{ block.settings.image_sp | img_url: 'master' }}" media="(max-width: 589px)">
+          <img src="{{ block.settings.image_pc | img_url: 'master' }}" alt="">
+        </picture>
+        <div class="contents">
+          <div class="ttl">{{ block.settings.heading_text }}</div>
+          <p>{{ block.settings.paragraph_text | newline_to_br }}</p>
+          <a class="btn" href="{{ block.settings.link_url }}" target="_blank">Google Map</a>
+        </div>
+      </div>
+    {% endfor %} {% endcomment %}
+    <div class="shop">
+      <picture>
+        <source srcset="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/tsugaike-shop_img01_sp.jpg" media="(max-width: 589px)">
+        <img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/tsugaike-shop_img01.jpg" alt="">
+      </picture>
+      <div class="contents">
+        <div class="ttl">HILLSIDE SNOW RENTALS 栂池店</div>
+        <p>
+          ■住所／電話番号<br>
+          〒399-9422<br>
+          長野県北安曇郡小谷村千国乙12840-1<br>
+          ホテルサンプラザ栂池1F<br>
+          Tel:0261-71-5287<br>
+          <br>
+          ■最寄りのスキー場 /<br>
+          Tsugaike Kogen ski resort<br>
+          <br>
+          ■営業時間/ 7:00~17:00
+        </p>
+        <a class="btn" href="https://maps.app.goo.gl/LcBw89KpDpWqDcPC6" target="_blank">Google Map</a>
+      </div>
+    </div>
+
+    <div class="shop">
+      <picture>
+        <source srcset="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/goryu_shop_img01_sp.jpg" media="(max-width: 589px)">
+        <img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/goryu_shop_img01.jpg" alt="">
+      </picture>
+      <div class="contents">
+        <div class="ttl">HILLSIDE SNOW RENTALS 五竜店</div>
+        <p>
+          ■住所／電話番号<br>
+          〒399-9211<br>
+          長野県北安曇郡白馬村神城22186-2 1F<br>
+          Tel. 0261-75-2114<br>
+          <br>
+          <br>
+          ■最寄りのスキー場 /<br>
+          エイブル白馬五竜スキー場<br>
+          <br>
+          ■営業時間 / 7:00~17:00
+        </p>
+        <a class="btn" href="https://maps.app.goo.gl/hkpAjAKpMkEDuGsb9" target="_blank">Google Map</a>
+      </div>
+    </div>
+  </div>
+
+  <style>
+  .shop-lists {
+    width: 100%;
+  }
+  .shop-lists .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shop-lists .shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    min-height: 600px;
+    overflow: hidden;
+  }
+  .shop-lists .shop picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+    .shop-lists .shop picture img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .shop-lists .shop .contents {
+      width: 80%;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    .shop-lists .shop .ttl {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .shop-lists .shop p {
+      font-size: 15px;
+    }
+    @media only screen and (max-width: 589px) {
+      .shop-lists .flex {
+        flex-direction: column;
+      }
+      .shop-lists .shop {
+        width: 100%;
+        min-height: 550px;
+      }
+      .shop-lists .shop .contents {
+        width: 90%;
+        padding: 30px;
+      }
+      .shop-lists .shop .ttl {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+      gsap.registerPlugin(ScrollTrigger);
+      const images = document.querySelectorAll('.shop-lists .shop picture img');
+      images.forEach((img) => {
+        gsap.fromTo(
+          img,
+          { scale: 1.2, y: 0 }, 
+          {
+            scale: 1.3, 
+            y: -70, 
+            scrollTrigger: {
+              trigger: img.closest('.shop'),
+              start: 'top bottom',
+              end: 'bottom top',
+              scrub: true,
+            },
+          }
+        );
+      });
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Shop Lists",
+  "settings": [],
+  // "blocks": [
+  //   {
+  //     "type": "shop",
+  //     "name": "店舗情報",
+  //     "settings": [
+  //       {
+  //         "type": "image_picker",
+  //         "id": "image_pc",
+  //         "label": "PC用画像"
+  //       },
+  //       {
+  //         "type": "image_picker",
+  //         "id": "image_sp",
+  //         "label": "SP用画像"
+  //       },
+  //       {
+  //         "type": "text",
+  //         "id": "heading_text",
+  //         "label": "見出しテキスト"
+  //       },
+  //       {
+  //         "type": "textarea",
+  //         "id": "paragraph_text",
+  //         "label": "段落テキスト"
+  //       },
+  //       {
+  //         "type": "url",
+  //         "id": "link_url",
+  //         "label": "リンクURL"
+  //       }
+  //     ]
+  //   }
+  // ],
+  "presets": [
+    {
+      "name": "Shop Lists"
+    }
+  ]
+}
+{% endschema %}

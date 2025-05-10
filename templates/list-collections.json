@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "collection_9zUcAf": {
+          "type": "collection",
+          "settings": {
+            "collection": "ski"
+          }
+        },
+        "collection_gVgFrt": {
+          "type": "collection",
+          "settings": {
+            "collection": "snowboad"
+          }
+        },
+        "collection_xKkVTK": {
+          "type": "collection",
+          "settings": {
+            "collection": "wear"
+          }
+        },
+        "collection_gkHR7d": {
+          "type": "collection",
+          "settings": {
+            "collection": "boots-poles"
+          }
+        },
+        "collection_GpLXNh": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "collection_9zUcAf",
+        "collection_gVgFrt",
+        "collection_xKkVTK",
+        "collection_gkHR7d",
+        "collection_GpLXNh"
+      ],
+      "custom_css": [
+        ".grid__item {margin-bottom: 10px; padding-left: 10px;}"
+      ],
+      "settings": {
+        "title_enable": false,
+        "display_type": "selected",
+        "sort": "alphabetical",
+        "grid": "2"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

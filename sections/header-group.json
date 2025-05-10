@@ -1,0 +1,36 @@
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "custom_css": [
+        "@media only screen and (max-width: 589px) {.announcement__text {font-size: 13px; padding: 8px 10px 6px; }}"
+      ],
+      "settings": {
+        "announcement_text": "Now Accepting Bookings for the 2025-2026 Season !",
+        "announcement_link": "",
+        "announcement_closable": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/logo01.svg",
+        "logo-inverted": "shopify:\/\/shop_images\/logo02.svg",
+        "desktop_logo_width": 200,
+        "mobile_logo_width": 120,
+        "main_menu_link_list": "main-menu",
+        "hover_menu": true,
+        "main_menu_alignment": "left-center",
+        "header_sticky": true,
+        "sticky_index": true,
+        "sticky_collection": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

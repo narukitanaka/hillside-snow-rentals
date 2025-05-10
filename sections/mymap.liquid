@@ -1,0 +1,125 @@
+<section class="shop-area">
+  <div class="page-width">
+    <div class="flex">
+      <div class="left">
+        {% comment %} <h3 class="head-ttl">{{ section.settings.heading_text | newline_to_br }}</h3> {% endcomment %}
+        <h3 class="head-ttl">ABOUT <br>HILLSIDE SNOW RENTALS</h3>
+        {% comment %} <p>
+          {{ section.settings.paragraph_text | newline_to_br }}
+        </p> {% endcomment %}
+        <p>
+          HILLSIDE SNOW RENTALSは、「五竜店」と「栂池店」の2店舗を展開。それぞれエイブル白馬五竜スキー場と栂池高原スキー場の近くに位置しており、アクセスも良好です。どちらの店舗もスキー場へのアクセスがしやすく、レンタル後すぐにスキー・スノーボードを楽しめます。<br>
+          <br>
+          上級者も満足のハイスペックなギアをそろえ、快適でワクワクする雪山体験をしっかりサポートします。
+        </p>
+      </div>
+      <div class="right">
+        <div class="mymap">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Q5jtSoccv4IWb4xHSg2kS06Fg3M0ZOQ&ehbc=2E312F&noprof=1" width=“100%” height=“100%”></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .shop-area {
+      padding: 120px 0;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      background-color: #011229;
+    }
+    .shop-area::before {
+      position: absolute;
+      bottom: -110px;
+      left: -90px;
+      content: "";
+      width: 650px;
+      aspect-ratio: 1/1;
+      background: url(https://cdn.shopify.com/s/files/1/0703/7534/2261/files/logomark.svg) no-repeat center/contain;
+      opacity: 0.1;
+      filter: blur(6px);
+      z-index: 0;
+    }
+    .shop-area .flex {
+      display: flex;
+      z-index: 1;
+    }
+    .shop-area .flex .left,.shop-area .flex .right {
+      flex-basis: 50%;
+    }
+    .shop-area .flex .left {
+      padding: 70px 70px 0 0;
+    }
+    .shop-area .flex .left .head-ttl {
+      margin-bottom: 40px;
+      line-height: 1.5;
+      color: #fff;
+    }
+    .shop-area .flex .left p {
+      font-size: 15px;
+      color: #fff;
+    }
+    .shop-area .flex .right .mymap {
+      width: 100%;
+      aspect-ratio: 1/.85;
+    }
+    .shop-area .flex .right .mymap iframe {
+      width: 100%;
+      height: 100%;
+    }
+    @media only screen and (max-width: 589px) {
+      .shop-area {
+        padding: 80px 0;
+      }
+      .shop-area::before {
+        bottom: auto;
+        top: -40px;
+        left: auto;
+        right: -80px;
+        content: "";
+        width: 390px;
+        filter: blur(6px);
+      }
+      .shop-area .flex {
+        position: relative;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .shop-area .flex .left {
+        padding: 0;
+      }
+      .shop-area .flex .left .head-ttl {
+        font-size: 30px;
+        line-height: 1.3;
+        margin-bottom: 30px;
+      }
+      .shop-area .flex .right .mymap {
+        aspect-ratio: 1/1;
+      }
+    }
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Shop Area",
+  "settings": [
+    // {
+    //   "type": "textarea",
+    //   "id": "heading_text",
+    //   "label": "見出しテキスト"
+    // },
+    // {
+    //   "type": "richtext",
+    //   "id": "paragraph_text",
+    //   "label": "段落テキスト"
+    // }
+  ],
+  "presets": [
+    {
+      "name": "Shop Area"
+    }
+  ]
+}
+{% endschema %}

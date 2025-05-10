@@ -1,0 +1,96 @@
+<section class="maker-slider">
+  <div class="slider-container">
+    <div class="slider-track">
+      {% for block in section.blocks %}
+        <div class="slider-item">
+          <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="">
+        </div>
+      {% endfor %}
+      <!-- ロゴを複製 -->
+      {% for block in section.blocks %}
+        <div class="slider-item">
+          <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% comment %} <p class="text-center">
+    <a href="#" class="btn">View all</a>
+  </p> {% endcomment %}
+
+  <style>
+    .maker-slider {
+      padding: 50px 0;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+
+    .slider-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+    .slider-track {
+      display: flex;
+      align-items: center;
+      animation: scroll-left 20s linear infinite;
+    }
+
+    .slider-item {
+      flex: 0 0 auto;
+      margin-right: 60px;
+    }
+
+    .slider-item img {
+      height: 100px;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+    @media only screen and (max-width: 589px) {
+      .maker-slider {
+        padding: 30px 0;
+      }
+      .slider-container {
+        margin-bottom: 30px;
+      }
+      .slider-item img {
+        height: 80px;
+      }
+    }
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Logo Slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "ロゴ画像",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "label": "ロゴ画像"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Logo Slider",
+    }
+  ]
+}
+{% endschema %}

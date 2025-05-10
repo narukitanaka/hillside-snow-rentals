@@ -1,0 +1,116 @@
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions0": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/footer-guide_2x_31b898a9-2956-4479-967e-f6192c217053.png",
+            "image_mask": "none",
+            "image_width": 80,
+            "title": "",
+            "text": "",
+            "button_label": "USER GUIDE",
+            "button_link": "shopify:\/\/pages\/guide-faq"
+          }
+        },
+        "footer-promotions1": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/footer-faq_2x_c85cce8c-a35b-4914-b1c2-ad41ff5bec4c.png",
+            "image_mask": "none",
+            "image_width": 80,
+            "title": "",
+            "text": "",
+            "button_label": "FAQ",
+            "button_link": "shopify:\/\/pages\/guide-faq"
+          }
+        },
+        "footer-promotions2": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/foote-contact_2x_bd5f245b-519f-47fc-8d19-698516a8cba1.png",
+            "image_mask": "none",
+            "image_width": 80,
+            "title": "",
+            "text": "",
+            "button_label": "CONTACT",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions0",
+        "footer-promotions1",
+        "footer-promotions2"
+      ],
+      "custom_css": [
+        ".index-section {margin-top: 0; margin-bottom: 0;}",
+        ".image-wrap {background: transparent;}",
+        ".btn {width: 200px; height: 75px; display: flex; justify-content: center; align-items: center; margin: 0 auto; font-size: 18px; line-height: 1; letter-spacing: 1px;}",
+        ".section--divider {padding-bottom: 40px;}",
+        "@media only screen and (min-width: 590px) {.section--divider {padding-bottom: 100px; } .grid__item:not(:first-child) {padding-left: 0; border-left: 2px solid #011229; }}"
+      ],
+      "settings": {
+        "hide_homepage": false,
+        "align_text": "center"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "logo_social",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo02.svg",
+            "desktop_logo_height": 50,
+            "container_width": 40
+          }
+        },
+        "footer-1": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "main-menu",
+            "container_width": 20
+          }
+        },
+        "menu_G3FdkA": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "footer",
+            "container_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "menu_G3FdkA"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 589px) {.site-footer {padding-top: 40px; }}"
+      ],
+      "settings": {
+        "show_locale_selector": true,
+        "show_currency_selector": false,
+        "show_currency_flags": false,
+        "show_payment_icons": false,
+        "colorize_payment_icons": false,
+        "show_copyright": true,
+        "copyright_text": "All rights reserved."
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}

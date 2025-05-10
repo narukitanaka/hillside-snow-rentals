@@ -1,0 +1,105 @@
+<section class="legal-table">
+  <div class="page-width page-width--narrow">
+    <h2>特商法取引法に基づく表記</h2>
+    <table>
+      <tr>
+        <th>販売事業者</th>
+        <td>株式会社○○</td>
+      </tr>
+      <tr>
+        <th>運営責任者</th>
+        <td>（責任者の氏名が入ります）</td>
+      </tr>
+      <tr>
+        <th>所在地</th>
+        <td>（販売事業者の会社住所が入ります）</td>
+      </tr>
+      <tr>
+        <th>電話番号</th>
+        <td>（販売事業者の会社電話番号が入ります）</td>
+      </tr>
+      <tr>
+        <th>メールアドレス</th>
+        <td>（販売事業者のメールアドレスが入ります）</td>
+      </tr>
+      <tr>
+        <th>販売価格（レンタル料金）</th>
+        <td>商品ページをご参照ください。</td>
+      </tr>
+      <tr>
+        <th>商品以外の必要代金</th>
+        <td>（延滞料金がある場合は明示する）</td>
+      </tr>
+      <tr>
+        <th>お支払い方法</th>
+        <td>クレジットカード/PayPal</td>
+      </tr>
+      <tr>
+        <th>お支払い時期</th>
+        <td>予約時に即時決済</td>
+      </tr>
+      <tr>
+        <th>商品の引き渡し時期</th>
+        <td>ご利用当日に店舗で商品を受け渡し</td>
+      </tr>
+      <tr>
+        <th>キャンセルについて</th>
+        <td>（いつまでなら無料キャンセル可能か、何日前から料金が発生するかなど）</td>
+      </tr>
+      <tr>
+        <th>返品・交換について</th>
+        <td>（レンタル商品のため、通常は返品不可とするが、不具合や破損時の対応は記載）</td>
+      </tr>
+    </table>
+  
+  </div>
+
+  <style>
+  .legal-table {
+    width: 100%;
+    padding-top: 80px;
+  }
+  .legal-table h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .legal-table table {
+    margin-bottom: 100px;
+    background: none !important;
+  }
+  .legal-table table th,.legal-table table td {
+    padding: 15px;
+  }
+  @media only screen and (max-width: 589px) {
+    .legal-table {
+      padding-top: 40px;
+    }
+    .legal-table h2 {
+      margin-bottom: 20px;
+    }
+    .legal-table table th,.legal-table table td {
+      display: block;
+    }
+    .legal-table table th {
+      padding-bottom: 5px;
+    }
+    .legal-table table td {
+      padding-top: 0;
+      padding-bottom: 5px;
+      font-size: 14px;
+    }
+  }
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Legal Table",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Legal Table"
+    }
+  ]
+}
+{% endschema %}
