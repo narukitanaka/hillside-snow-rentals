@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,35 +16,413 @@
     "brands_list_ApiymE": {
       "type": "brands-list",
       "blocks": {
-        "brand_XwyWEy": {
-          "type": "brand",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/brand-salomon.png",
-            "logo_url": "https:\/\/salomon.jp\/",
-            "rich_text_content": "<p>どのレンタルプランで取り扱いがあるかなどを記載する？<br\/>リッチテキストに入力がある場合のみモーダルボタンが表示される。<\/p>"
-          }
-        },
-        "brand_Nk8bNj": {
-          "type": "brand",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/brand-moss.png",
-            "logo_url": "",
-            "rich_text_content": "<p>hallo！動作確認！<\/p>"
-          }
-        },
         "brand_xgpaxp": {
           "type": "brand",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/brand-jones.png",
+            "logo_image": "shopify:\/\/shop_images\/logo-salomon.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_JbALqr": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-novmbr.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_NqVAww": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-sabrina.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_dXkxRd": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Group_77.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_Y3dNcf": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-jones.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_MP4hDc": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-k2.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_D8Ybrx": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-capita.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_Kz4xaT": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-springbreak.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_j8qkbP": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/libtech.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_VN7UfQ": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/anon.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_XKwQ6k": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-northface.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_aQjFD4": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-giro.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_AJDAA7": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-fila.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_UDhXgm": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-airblaster.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_F7XEBK": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-oakley.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_JXCY6B": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-dakine.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_QjUcKc": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-roxy.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_NUmJqA": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-billabonc.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_QQJPa9": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-volcom.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_4R3dn7": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-x.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_87hRyD": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-patagonia.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_iAEmTT": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-686.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_pzqpVG": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-flux.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_UQYQYL": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-elan.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_azLbaF": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-romesds.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_pYaMgF": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-head.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_mtpiME": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-ride.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_b7MFrz": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-thirtytwo.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_Aqzi9W": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-dynaster.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_dLNPJk": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-dalbello.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_UiDJhi": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-tyrolia.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_qKBp4h": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/swallowski.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_MBpcTH": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/ogasakaski.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_CGpPQW": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-armada.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_qwXiNG": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-pranapunks.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_ETiEKq": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-line.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_pqbdCJ": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-fischer.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_bFTrLG": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-union.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_rcELf8": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-secca.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_aGHnp7": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-ogasaka.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_hUeLbj": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-zuma.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_qdea4V": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-burton.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_8RNfdA": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-deeluxe.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_wyqrYD": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-rossignol.png",
+            "logo_url": "",
+            "rich_text_content": ""
+          }
+        },
+        "brand_7Kz7bc": {
+          "type": "brand",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-voiki.png",
             "logo_url": "",
             "rich_text_content": ""
           }
         }
       },
       "block_order": [
-        "brand_XwyWEy",
-        "brand_Nk8bNj",
-        "brand_xgpaxp"
+        "brand_xgpaxp",
+        "brand_JbALqr",
+        "brand_NqVAww",
+        "brand_dXkxRd",
+        "brand_Y3dNcf",
+        "brand_MP4hDc",
+        "brand_D8Ybrx",
+        "brand_Kz4xaT",
+        "brand_j8qkbP",
+        "brand_VN7UfQ",
+        "brand_XKwQ6k",
+        "brand_aQjFD4",
+        "brand_AJDAA7",
+        "brand_UDhXgm",
+        "brand_F7XEBK",
+        "brand_JXCY6B",
+        "brand_QjUcKc",
+        "brand_NUmJqA",
+        "brand_QQJPa9",
+        "brand_4R3dn7",
+        "brand_87hRyD",
+        "brand_iAEmTT",
+        "brand_pzqpVG",
+        "brand_UQYQYL",
+        "brand_azLbaF",
+        "brand_pYaMgF",
+        "brand_mtpiME",
+        "brand_b7MFrz",
+        "brand_Aqzi9W",
+        "brand_dLNPJk",
+        "brand_UiDJhi",
+        "brand_qKBp4h",
+        "brand_MBpcTH",
+        "brand_CGpPQW",
+        "brand_qwXiNG",
+        "brand_ETiEKq",
+        "brand_pqbdCJ",
+        "brand_bFTrLG",
+        "brand_rcELf8",
+        "brand_aGHnp7",
+        "brand_hUeLbj",
+        "brand_qdea4V",
+        "brand_8RNfdA",
+        "brand_wyqrYD",
+        "brand_7Kz7bc"
       ],
       "name": "Brand List",
       "settings": {}
