@@ -110,6 +110,32 @@
             {%- endif -%}
           {%- endif -%}
 
+            {% comment %} 言語切り替えボタンを独自に設置 {% endcomment %}
+            <div class="header-item header-item--language-switcher">
+            <ul class="language-switcher">
+              <li>
+              <a href="/ja{{ request.path }}" class="language-switcher__link{% if request.locale == 'ja' %} is-active{% endif %}">
+                日本語
+              </a>
+              </li>
+              <li>
+              <a href="/zh-hans{{ request.path }}" class="language-switcher__link{% if request.locale == 'zh-hans' %} is-active{% endif %}">
+                简体中文
+              </a>
+              </li>
+              <li>
+              <a href="/zh-hant{{ request.path }}" class="language-switcher__link{% if request.locale == 'zh-hant' %} is-active{% endif %}">
+                繁體中文
+              </a>
+              </li>
+              <li>
+              <a href="{{ request.path }}" class="language-switcher__link{% if request.locale == 'en' %} is-active{% endif %}">
+                English
+              </a>
+              </li>
+            </ul>
+            </div>
+
           <div class="header-item header-item--icons">
             {%- render 'header-icons', section: section -%}
           </div>
