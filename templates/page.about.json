@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -52,7 +61,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>ハイエンドモデルも取り揃えており、白馬五竜スキー場やHakuba47 Snow Parkを滑る方ならこちらの店舗利用がオススメ。英語が話せるスタッフもいるため海外の方でも安心。<\/p>"
+            "text": "<p>初心者用からハイエンドモデルまで幅広く取り揃えており、エイブル白馬五竜スキー場やHakuba47 snow parkを滑る方ならこちらの店舗がオススメ。英語が話せるスタッフもいるので海外の方でも安心。<\/p>"
           }
         }
       },
@@ -170,7 +179,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>ホテルサンプラザ栂池内のレンタルショップです。 栂池高原スキー場を滑る方ならこちらの店舗利用がオススメ。 英語が話せるスタッフもいるため海外の方でも安心。<\/p>"
+            "text": "<p>ホテルサンプラザ栂池の１Fに位置するレンタルショップ。初心者用はもちろん、栂池の深雪を思う存分楽しんでいただけるハイエンドなパウダースキー、パウダーボードも充実のラインナップ。栂池マウンテンリゾート、白馬乗鞍温泉スキー場、白馬コルチナスキー場を滑る方ならこちらの店舗がオススメ。<br\/>英語が話せるスタッフもいるので海外の方でも安心。<\/p>"
           }
         }
       },

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,8 +16,103 @@
     },
     "legal_NUJB6t": {
       "type": "legal",
+      "blocks": {
+        "legal_item_hzLkET": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "販売事業者",
+            "item_content": "株式会社オーティーズ"
+          }
+        },
+        "legal_item_kVKFMc": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "運営責任者",
+            "item_content": "脇坂　純"
+          }
+        },
+        "legal_item_zMzrAb": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "所在地",
+            "item_content": "大阪府大阪市西区立売堀２丁目４−５ Dgビルなにわ筋"
+          }
+        },
+        "legal_item_VeUaXL": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "電話番号",
+            "item_content": "06-6575-9033"
+          }
+        },
+        "legal_item_yjHYfM": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "メールアドレス",
+            "item_content": "info@autees.jp"
+          }
+        },
+        "legal_item_M9Padg": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "販売価格（レンタル料金）",
+            "item_content": "商品ページをご参照ください。"
+          }
+        },
+        "legal_item_d8K77M": {
+          "type": "legal_item",
+          "disabled": true,
+          "settings": {
+            "item_title": "商品以外の必要代金",
+            "item_content": "（延滞料金がある場合は明示する）"
+          }
+        },
+        "legal_item_FdzNbj": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "お支払い方法",
+            "item_content": "クレジットカード\/PayPal"
+          }
+        },
+        "legal_item_LEQWt8": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "お支払い時期",
+            "item_content": "予約時に即時決済"
+          }
+        },
+        "legal_item_KDCzVW": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "商品の引き渡し時期",
+            "item_content": "ご利用当日または前日15時以降に店舗で商品を受け渡し"
+          }
+        },
+        "legal_item_EFNbcx": {
+          "type": "legal_item",
+          "settings": {
+            "item_title": "キャンセルについて",
+            "item_content": "ご利用日48時間前までキャンセル無料。それ以降はキャンセル料が発生いたします。"
+          }
+        }
+      },
+      "block_order": [
+        "legal_item_hzLkET",
+        "legal_item_kVKFMc",
+        "legal_item_zMzrAb",
+        "legal_item_VeUaXL",
+        "legal_item_yjHYfM",
+        "legal_item_M9Padg",
+        "legal_item_d8K77M",
+        "legal_item_FdzNbj",
+        "legal_item_LEQWt8",
+        "legal_item_KDCzVW",
+        "legal_item_EFNbcx"
+      ],
       "name": "Legal Table",
-      "settings": {}
+      "settings": {
+        "legal_title": "特商法取引法に基づく表記"
+      }
     }
   },
   "order": [

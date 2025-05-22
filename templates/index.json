@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_gXUTJk": {
@@ -9,10 +18,10 @@
             "title": "Gear Up\nGlide Down",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/collections",
+            "link": "shopify://collections",
             "link_text": "Start Rental",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/kv01_pc.jpg",
+            "image": "shopify://shop_images/kv01_pc.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -23,10 +32,10 @@
             "title": "Capture the Ride\nRemember the Trip",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/collections",
+            "link": "shopify://collections",
             "link_text": "Start Rental",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/AdobeStock_175086751.jpg",
+            "image": "shopify://shop_images/AdobeStock_175086751.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -130,13 +139,13 @@
         "logo_6tmmwt": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/top-maker_slideimg01.jpg"
+            "logo_image": "shopify://shop_images/top-maker_slideimg01.jpg"
           }
         },
         "logo_HdBK6a": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/top-maker_slideimg01.jpg"
+            "logo_image": "shopify://shop_images/top-maker_slideimg01.jpg"
           }
         }
       },
@@ -174,7 +183,7 @@
       ],
       "settings": {
         "map_title": "HILLSIDE SNOW RENTALS  GORYU",
-        "address": "<p>■Address\/Tel<br\/>1F, 22186-2, Kamishiro, Hakuba-mura,  Kitaazumi-gun, Nagano, 399-9422, Japan <br\/>Tel:0261-75-2114<br\/><br\/>■Nearest ski resort \/<br\/>Able Hakuba Goryu Ski Resort<br\/><br\/>■Business hours \/ 7:00~17:00<\/p>",
+        "address": "<p>■Address/Tel<br/>1F, 22186-2, Kamishiro, Hakuba-mura,  Kitaazumi-gun, Nagano, 399-9422, Japan <br/>Tel:0261-75-2114<br/><br/>■Nearest ski resort /<br/>Able Hakuba Goryu Ski Resort<br/><br/>■Business hours / 7:00~17:00</p>",
         "map_address": "〒399-9211 長野県北安曇郡白馬村神城２２１８６−２ 1F",
         "api_key": "",
         "show_button": true,
@@ -190,11 +199,11 @@
       ],
       "settings": {
         "map_title": "HILLSIDE SNOW RENTALS  TSUGAIKE",
-        "address": "<p>■Address\/Tel<br\/>Hotel Sunplaza Tsugaike 1F, 12840-1 Chikuni Otsu, Otari-mura, Kitaazumi-gun, Nagano, 399-9422, Japan <br\/>Tel:0261-71-5287 <br\/><br\/>■Nearest ski resort \/<br\/>Tsugaike Kogen ski resort <br\/><br\/>■Business hours \/ 7:00~17:00<\/p>",
+        "address": "<p>■Address/Tel<br/>Hotel Sunplaza Tsugaike 1F, 12840-1 Chikuni Otsu, Otari-mura, Kitaazumi-gun, Nagano, 399-9422, Japan <br/>Tel:0261-71-5287 <br/><br/>■Nearest ski resort /<br/>Tsugaike Kogen ski resort <br/><br/>■Business hours / 7:00~17:00</p>",
         "map_address": "ホテルサンプラザ栂池",
         "api_key": "",
         "show_button": true,
-        "background_image": "shopify:\/\/shop_images\/IMG_5067-scaled_00d5bfbd-8ba2-48c9-adf8-653ee884f681.jpg",
+        "background_image": "shopify://shop_images/IMG_5067-scaled_00d5bfbd-8ba2-48c9-adf8-653ee884f681.jpg",
         "lazyload_images": true
       }
     }

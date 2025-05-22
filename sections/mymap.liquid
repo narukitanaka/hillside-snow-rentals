@@ -2,15 +2,9 @@
   <div class="page-width">
     <div class="flex">
       <div class="left">
-        {% comment %} <h3 class="head-ttl">{{ section.settings.heading_text | newline_to_br }}</h3> {% endcomment %}
-        <h3 class="head-ttl">ABOUT <br>HILLSIDE SNOW RENTALS</h3>
-        {% comment %} <p>
-          {{ section.settings.paragraph_text | newline_to_br }}
-        </p> {% endcomment %}
+        <h3 class="head-ttl">{{ section.settings.heading_text | newline_to_br }}</h3>
         <p>
-          HILLSIDE SNOW RENTALSは、「五竜店」と「栂池店」の2店舗を展開。それぞれエイブル白馬五竜スキー場と栂池高原スキー場の近くに位置しており、アクセスも良好です。どちらの店舗もスキー場へのアクセスがしやすく、レンタル後すぐにスキー・スノーボードを楽しめます。<br>
-          <br>
-          上級者も満足のハイスペックなギアをそろえ、快適でワクワクする雪山体験をしっかりサポートします。
+          {{ section.settings.paragraph_text | newline_to_br }}
         </p>
       </div>
       <div class="right">
@@ -105,16 +99,16 @@
 {
   "name": "Shop Area",
   "settings": [
-    // {
-    //   "type": "textarea",
-    //   "id": "heading_text",
-    //   "label": "見出しテキスト"
-    // },
-    // {
-    //   "type": "richtext",
-    //   "id": "paragraph_text",
-    //   "label": "段落テキスト"
-    // }
+    {
+      "type": "textarea",
+      "id": "heading_text",
+      "label": "見出しテキスト"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraph_text",
+      "label": "段落テキスト"
+    }
   ],
   "presets": [
     {

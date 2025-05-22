@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,8 +16,61 @@
     },
     "user_guid_JaXzLH": {
       "type": "user-guid",
+      "blocks": {
+        "step_YYLNU7": {
+          "type": "step",
+          "settings": {
+            "step_number": "STEP01",
+            "step_title": "商品を選んで注文へ進む",
+            "step_description": "<p>商品ページにて、ご利用店舗・ご利用日数・ご利用日・数量・その他オプションを選択し、ご注文手続きへお進みください。<\/p>",
+            "step_image": "shopify:\/\/shop_images\/guide-flow_img01.png",
+            "step_button_text": "ご注文はこちらから",
+            "step_button_link": "shopify:\/\/collections"
+          }
+        },
+        "step_nx36nU": {
+          "type": "step",
+          "settings": {
+            "step_number": "STEP02",
+            "step_title": "お客様情報の入力とお支払い",
+            "step_description": "<p>ご注文画面にて、お客様情報、ご請求先情報、お支払い情報をご入力ください。お支払い完了後、予約が確定します。<br\/>予約が完了すると、ご登録のメールアドレス宛に予約完了メールが届きます。<br\/><br\/><strong>※提携先の宿泊ホテルからのクーポンコードはこの時にご入力ください。<\/strong><\/p>",
+            "step_image": "shopify:\/\/shop_images\/guide-flow_img02.png",
+            "step_button_text": "",
+            "step_button_link": ""
+          }
+        },
+        "step_9EqKhY": {
+          "type": "step",
+          "settings": {
+            "step_number": "STEP03",
+            "step_title": "受け取り＆スキー・スノボを満喫！",
+            "step_description": "<p>ご注文時に選択した店舗にて商品を受け取り、店舗近くのスキー場でスキー・スノーボードをお楽しみください。<\/p><p>ご不明点やお困りのことがございましたら、受け取り店舗までお気軽にご連絡ください。<\/p>",
+            "step_image": "shopify:\/\/shop_images\/AdobeStock_179854495.jpg",
+            "step_button_text": "",
+            "step_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_YYLNU7",
+        "step_nx36nU",
+        "step_9EqKhY"
+      ],
       "name": "User Guide",
-      "settings": {}
+      "settings": {
+        "flow_title": "サービス利用の流れ",
+        "payment_title": "お支払いについて",
+        "payment_description": "<p>クレジットカード（VISA \/ Mastercard \/ JCB \/ AMEX）およびPayPalがご利用いただけます。<br\/>ご予約時に全額を前払いでお支払いいただきます。お支払いが完了次第、予約が確定となります。<\/p>",
+        "payment_image": "shopify:\/\/shop_images\/pay-bland.png",
+        "cancellation_title": "ご予約の変更・キャンセルについて",
+        "cancellation_description": "<p>ご利用日の〇日前までの変更・キャンセルは、お問い合わせフォームまたはお電話にてご連絡ください。<br\/>また、ご予約日を過ぎてもご来店がない場合は、予約をキャンセル扱いとさせていただくことがございます。あらかじめご了承ください。<\/p>",
+        "contact_form_link": "shopify:\/\/pages\/contact",
+        "contact_form_text": "お問い合わせフォーム",
+        "store1_name": "五竜店",
+        "store1_phone": "0261-75-2114",
+        "store2_name": "栂池店",
+        "store2_phone": "0261-71-5287"
+      }
     },
     "faq": {
       "type": "faq",
@@ -25,7 +87,7 @@
           "type": "question",
           "settings": {
             "title": "いつから予約できますか？",
-            "text": "<p>ご利用希望日の〇日前よりご予約いただけます。<\/p>"
+            "text": "<p>ご利用希望日の6ヶ月前よりご予約いただけます。<\/p>"
           }
         },
         "faq-2": {
@@ -40,6 +102,34 @@
           "settings": {
             "title": "予約確認メールが届きません。",
             "text": "<p>迷惑メールフォルダをご確認ください。それでも見つからない場合はお手数ですが一度お問い合わせください。<\/p>"
+          }
+        },
+        "question_999h6g": {
+          "type": "question",
+          "settings": {
+            "title": "手ぶらでも大丈夫ですか？",
+            "text": "<p>はい、大丈夫です！<br\/>スキーウェア、ゴーグル、グローブなど、必要なアイテムはほとんどレンタルできます。<br\/>インナーや靴下などの直接肌に触れるもの以外は、基本的にレンタル可能ですのでご安心ください。<br\/>また、スキー・スノーボードに最適な靴下の販売もございます。<\/p>"
+          }
+        },
+        "question_xDHm4d": {
+          "type": "question",
+          "settings": {
+            "title": "レンタル品はいつ受け取れますか？",
+            "text": "<p>レンタル開始日の前日15:00以降に、受付とお受け取りが可能です。<br\/>当日の朝は混雑しやすいため、前日の夕方にお越しいただくとスムーズです。<\/p>"
+          }
+        },
+        "question_R3qRDc": {
+          "type": "question",
+          "settings": {
+            "title": "商品を配送してもらうことはできますか？",
+            "text": "<p>恐れ入りますが、商品の配送は行っておりません。<br\/>お客様一人ひとりに合った最適なサイズ・モデルをご提供するため、<br\/>店舗にて実際にフィッティングを行っていただいております。<br\/>安全で快適にご利用いただくための大切なプロセスですので、ご理解のほどお願いいたします。<\/p>"
+          }
+        },
+        "question_cyfFwn": {
+          "type": "question",
+          "settings": {
+            "title": "当日、レンタルアイテムのランクを変更できますか？",
+            "text": "<p>はい、できます。<br\/>スタンダードモデルをご利用中に、ハイクオリティやプレミアムモデルに変更したい場合は、現物をご確認いただいたうえで当日でもランクアップが可能です。<br\/>※その際、差額をお支払いいただきます。<br\/><br\/>ただし、スタンダードモデルへのランクダウン（例：プレミアム → スタンダードなど）はできませんので、ご了承ください。<\/p>"
           }
         },
         "faq-3": {
@@ -90,7 +180,7 @@
           "type": "question",
           "settings": {
             "title": "キャンセル料はかかりますか？",
-            "text": "<p>ご利用日〇日前までは無料、それ以降はキャンセル料が発生いたします。<\/p>"
+            "text": "<p>ご利用日48時間前までは無料です。それ以降はキャンセル料が発生いたします。<\/p>"
           }
         },
         "question_MWXBfr": {
@@ -106,6 +196,10 @@
         "faq-1",
         "faq-2",
         "question_hQfcdV",
+        "question_999h6g",
+        "question_xDHm4d",
+        "question_R3qRDc",
+        "question_cyfFwn",
         "faq-3",
         "faq-4",
         "question_YJMqwA",
@@ -116,6 +210,7 @@
         "question_MWXBfr"
       ],
       "custom_css": [
+        ".index-section {padding-top: 100px; margin-top: -100px;}",
         ".section-header__title {font-weight: 700; text-align: left; padding-bottom: 20px; border-bottom: 2px solid #111;}",
         ".h2 {font-size: 24px; margin-bottom: 0; padding-left: 15px;}",
         ".collapsible-trigger--inline {width: 100%; color: #fff; padding: 15px 0 15px 30px; background-color: #3a6c6c; margin-bottom: 20px;}",
