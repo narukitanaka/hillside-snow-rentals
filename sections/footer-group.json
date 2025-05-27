@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer-group.name",
@@ -28,7 +37,7 @@
             "title": "",
             "text": "",
             "button_label": "FAQ",
-            "button_link": "shopify:\/\/pages\/guide-faq"
+            "button_link": "\/pages\/guide-faq#shopify-section-template--18391727177909__faq"
           }
         },
         "footer-promotions2": {
@@ -55,7 +64,7 @@
         ".image-wrap {background: transparent;}",
         ".btn {width: 200px; height: 75px; display: flex; justify-content: center; align-items: center; margin: 0 auto; font-size: 18px; line-height: 1; letter-spacing: 1px;}",
         ".section--divider {padding-bottom: 40px;}",
-        "@media only screen and (min-width: 590px) {.section--divider {padding-bottom: 100px; } .grid__item:not(:first-child) {padding-left: 0; border-left: 2px solid #011229; }}"
+        "@media only screen and (min-width: 590px) {.section--divider {padding-bottom: 100px; } .grid__item:not(:first-child) {padding-left: 0; border-left: 2px solid #011229; } .footer-promotions .btn:hover {background-position: 91% 50%; }}"
       ],
       "settings": {
         "hide_homepage": false,

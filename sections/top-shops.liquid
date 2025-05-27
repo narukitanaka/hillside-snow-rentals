@@ -1,6 +1,6 @@
 <section class="shop-lists">
   <div class="flex">
-    {% comment %} {% for block in section.blocks %}
+    {% for block in section.blocks %}
       <div class="shop">
         <picture>
           <source srcset="{{ block.settings.image_sp | img_url: 'master' }}" media="(max-width: 589px)">
@@ -12,52 +12,8 @@
           <a class="btn" href="{{ block.settings.link_url }}" target="_blank">Google Map</a>
         </div>
       </div>
-    {% endfor %} {% endcomment %}
-    <div class="shop">
-      <picture>
-        <source srcset="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/tsugaike-shop_img01_sp.jpg" media="(max-width: 589px)">
-        <img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/tsugaike-shop_img01.jpg" alt="">
-      </picture>
-      <div class="contents">
-        <div class="ttl">HILLSIDE SNOW RENTALS 栂池店</div>
-        <p>
-          ■住所／電話番号<br>
-          〒399-9422<br>
-          長野県北安曇郡小谷村千国乙12840-1<br>
-          ホテルサンプラザ栂池1F<br>
-          Tel:0261-71-5287<br>
-          <br>
-          ■最寄りのスキー場 /<br>
-          Tsugaike Kogen ski resort<br>
-          <br>
-          ■営業時間/ 7:00~17:00
-        </p>
-        <a class="btn" href="https://maps.app.goo.gl/LcBw89KpDpWqDcPC6" target="_blank">Google Map</a>
-      </div>
-    </div>
+    {% endfor %}
 
-    <div class="shop">
-      <picture>
-        <source srcset="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/goryu_shop_img01_sp.jpg" media="(max-width: 589px)">
-        <img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/goryu_shop_img01.jpg" alt="">
-      </picture>
-      <div class="contents">
-        <div class="ttl">HILLSIDE SNOW RENTALS 五竜店</div>
-        <p>
-          ■住所／電話番号<br>
-          〒399-9211<br>
-          長野県北安曇郡白馬村神城22186-2 1F<br>
-          Tel. 0261-75-2114<br>
-          <br>
-          <br>
-          ■最寄りのスキー場 /<br>
-          エイブル白馬五竜スキー場<br>
-          <br>
-          ■営業時間 / 7:00~17:00
-        </p>
-        <a class="btn" href="https://maps.app.goo.gl/hkpAjAKpMkEDuGsb9" target="_blank">Google Map</a>
-      </div>
-    </div>
   </div>
 
   <style>
@@ -154,39 +110,39 @@
 {
   "name": "Shop Lists",
   "settings": [],
-  // "blocks": [
-  //   {
-  //     "type": "shop",
-  //     "name": "店舗情報",
-  //     "settings": [
-  //       {
-  //         "type": "image_picker",
-  //         "id": "image_pc",
-  //         "label": "PC用画像"
-  //       },
-  //       {
-  //         "type": "image_picker",
-  //         "id": "image_sp",
-  //         "label": "SP用画像"
-  //       },
-  //       {
-  //         "type": "text",
-  //         "id": "heading_text",
-  //         "label": "見出しテキスト"
-  //       },
-  //       {
-  //         "type": "textarea",
-  //         "id": "paragraph_text",
-  //         "label": "段落テキスト"
-  //       },
-  //       {
-  //         "type": "url",
-  //         "id": "link_url",
-  //         "label": "リンクURL"
-  //       }
-  //     ]
-  //   }
-  // ],
+  "blocks": [
+    {
+      "type": "shop",
+      "name": "店舗情報",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_pc",
+          "label": "PC用画像"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_sp",
+          "label": "SP用画像"
+        },
+        {
+          "type": "text",
+          "id": "heading_text",
+          "label": "見出しテキスト"
+        },
+        {
+          "type": "richtext",
+          "id": "paragraph_text",
+          "label": "段落テキスト"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "リンクURL"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "Shop Lists"
