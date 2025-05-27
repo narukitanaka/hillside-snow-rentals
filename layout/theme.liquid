@@ -29,14 +29,14 @@
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
   {%- render 'css-variables' -%}
 
-  <style>
+  {% comment %} <style>
     h1, h2, h3, h4, h5, h6 {
       font-family: "Bevan", "Chivo", sans-serif !important;
     }
     h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
       font-family: "Bevan", "Chivo", sans-serif !important;
     }
-  </style>
+  </style> {% endcomment %}
 
   {% if template.name == 'product' %}
   {% endif %}

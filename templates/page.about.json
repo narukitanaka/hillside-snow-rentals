@@ -27,7 +27,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><a href=\"#shopify-section-template--18391726751925__rich_text_zBQKq6\" title=\"#shopify-section-template--18391726751925__rich_text_zBQKq6\"><strong>五竜店<\/strong><\/a>　<a href=\"#shopify-section-template--18391726751925__rich_text_WVbwBP\" title=\"#shopify-section-template--18391726751925__rich_text_WVbwBP\"><strong>栂池店<\/strong><\/a><\/p>"
+            "text": "<p><a href=\"#shopify-section-template--18391726751925__rich_text_zBQKq6\" title=\"#shopify-section-template--18391726751925__rich_text_zBQKq6\"><strong>Goryu<\/strong><\/a>　<a href=\"#shopify-section-template--18391726751925__rich_text_WVbwBP\" title=\"#shopify-section-template--18391726751925__rich_text_WVbwBP\"><strong>Tsugaike<\/strong><\/a><\/p>"
           }
         }
       },
@@ -61,7 +61,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>初心者用からハイエンドモデルまで幅広く取り揃えており、エイブル白馬五竜スキー場やHakuba47 snow parkを滑る方ならこちらの店舗がオススメ。英語が話せるスタッフもいるので海外の方でも安心。<\/p>"
+            "text": "<p>We offer a wide range of gear, from beginner-friendly models to high-end performance equipment. If you're planning to ski at Able Hakuba Goryu or Hakuba47 Snow Park, this location is the perfect choice. Our English-speaking staff are here to help, so international visitors can rent with confidence and ease.<\/p>"
           }
         }
       },
@@ -93,7 +93,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/pixta_100361393.jpg",
+            "image": "shopify:\/\/shop_images\/goryu_tennai01_58b9cfe7-3c97-4b30-9a72-17838863f61d.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -107,7 +107,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/pixta_70273406.jpg",
+            "image": "shopify:\/\/shop_images\/goryu_tennai02.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -118,12 +118,12 @@
         "image_dPPNTh"
       ],
       "settings": {
-        "section_height": "450px",
+        "section_height": "550px",
         "mobile_height": "250px",
         "parallax": true,
         "style": "arrows",
         "autoplay": true,
-        "autoplay_speed": 7,
+        "autoplay_speed": 6,
         "lazyload_images": true
       }
     },
@@ -179,7 +179,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>ホテルサンプラザ栂池の１Fに位置するレンタルショップ。初心者用はもちろん、栂池の深雪を思う存分楽しんでいただけるハイエンドなパウダースキー、パウダーボードも充実のラインナップ。栂池マウンテンリゾート、白馬乗鞍温泉スキー場、白馬コルチナスキー場を滑る方ならこちらの店舗がオススメ。<br\/>英語が話せるスタッフもいるので海外の方でも安心。<\/p>"
+            "text": "<p>Our Tsugaike rental shop is conveniently located on the first floor of Hotel Sunplaza Tsugaike. We offer everything from beginner gear to a premium selection of powder skis and boards—perfect for enjoying the deep powder that Tsugaike is known for.<br\/><br\/>If you're heading to Tsugaike Mountain Resort, Hakuba Norikura Onsen Ski Resort, or Hakuba Cortina, this is the ideal location. English-speaking staff are available, so international guests can feel completely at ease.<\/p>"
           }
         }
       },
@@ -211,7 +211,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/pixta_100361393.jpg",
+            "image": "shopify:\/\/shop_images\/tsugaike_tennai01.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -225,7 +225,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/pixta_70273406.jpg",
+            "image": "shopify:\/\/shop_images\/tsugaike_tennai02.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -237,12 +237,12 @@
       ],
       "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
       "settings": {
-        "section_height": "450px",
+        "section_height": "550px",
         "mobile_height": "250px",
         "parallax": true,
         "style": "arrows",
         "autoplay": true,
-        "autoplay_speed": 5,
+        "autoplay_speed": 6,
         "lazyload_images": true
       }
     },
