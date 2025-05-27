@@ -152,6 +152,7 @@
         "image_9aBjcX",
         "liquid_dxcjh8"
       ],
+      "disabled": true,
       "custom_css": [
         ".index-section {padding-bottom: 60px;}",
         ".lc-table {width: 100%; background: none; padding-left: 20px;}",
@@ -164,6 +165,58 @@
         "full_width": false,
         "space_around": true,
         "lazyload_images": true
+      }
+    },
+    "location_table_wBiUEQ": {
+      "type": "location-table",
+      "blocks": {
+        "location_item_LtBe3e": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "店舗名",
+            "item_content": "HILLSIDE SNOW RENTALS 五竜店"
+          }
+        },
+        "location_item_eJDC89": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "所在地",
+            "item_content": "〒399-9211 \n長野県北安曇郡白馬村神城22186-2 1F"
+          }
+        },
+        "location_item_3CJMCp": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "電話番号",
+            "item_content": "0261-75-2114"
+          }
+        },
+        "location_item_r8GfH4": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "営業時間",
+            "item_content": "07:00～17:00"
+          }
+        },
+        "location_item_EY9zUm": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "最寄りのスキー場",
+            "item_content": "エイブル白馬五竜スキー場"
+          }
+        }
+      },
+      "block_order": [
+        "location_item_LtBe3e",
+        "location_item_eJDC89",
+        "location_item_3CJMCp",
+        "location_item_r8GfH4",
+        "location_item_EY9zUm"
+      ],
+      "name": "Location Table",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/goryu_shop_img01.jpg",
+        "google_map_link": "https:\/\/maps.app.goo.gl\/1cnqokozqFUg464g9"
       }
     },
     "rich_text_WVbwBP": {
@@ -271,18 +324,64 @@
         "image_GngKMc",
         "liquid_dJRwbx"
       ],
-      "custom_css": [
-        ".index-section {padding-bottom: 60px;}",
-        ".lc-table {width: 100%; background: none; padding-left: 20px;}",
-        ".lc-table th {width: 25%;}",
-        ".lc-table th,.lc-table td {padding: 8px 0 !important;}",
-        "@media only screen and (max-width: 589px) {.lc-table {padding-left: 0; } .lc-table th {width: 36%; }}"
-      ],
+      "disabled": true,
       "name": "t:sections.advanced-content.presets.custom_content.name",
       "settings": {
         "full_width": false,
         "space_around": true,
         "lazyload_images": true
+      }
+    },
+    "location_table_pzVxYw": {
+      "type": "location-table",
+      "blocks": {
+        "location_item_LfVmkH": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "店舗名",
+            "item_content": "HILLSIDE SNOW RENTALS 栂池店"
+          }
+        },
+        "location_item_kmCeVf": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "所在地",
+            "item_content": "〒399-9422\n長野県北安曇郡小谷村千国乙12840-1　ホテルサンプラザ栂池 1F"
+          }
+        },
+        "location_item_YPraba": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "電話番号",
+            "item_content": "0261-71-5287"
+          }
+        },
+        "location_item_dJ49wp": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "営業時間",
+            "item_content": "07:00～17:00"
+          }
+        },
+        "location_item_XAei37": {
+          "type": "location_item",
+          "settings": {
+            "item_title": "最寄りのスキー場",
+            "item_content": "栂池高原スキー場"
+          }
+        }
+      },
+      "block_order": [
+        "location_item_LfVmkH",
+        "location_item_kmCeVf",
+        "location_item_YPraba",
+        "location_item_dJ49wp",
+        "location_item_XAei37"
+      ],
+      "name": "Location table",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_5067-scaled_00d5bfbd-8ba2-48c9-adf8-653ee884f681.jpg",
+        "google_map_link": "https:\/\/maps.app.goo.gl\/GVQ2M4rqbSpcBV6s8"
       }
     }
   },
@@ -292,8 +391,10 @@
     "rich_text_zBQKq6",
     "slideshow",
     "advanced_content_4CMkhe",
+    "location_table_wBiUEQ",
     "rich_text_WVbwBP",
     "slideshow_7zhWmz",
-    "advanced_content_3q9kjm"
+    "advanced_content_3q9kjm",
+    "location_table_pzVxYw"
   ]
 }

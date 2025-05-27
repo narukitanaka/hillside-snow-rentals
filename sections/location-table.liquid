@@ -1,0 +1,141 @@
+<section class="location-info">
+  <div class="page-width">
+    <div class="flex">
+      <div class="left">
+        <div class="img-box">
+          <img src="{{ section.settings.image | img_url: 'master' }}" alt="">
+        </div>
+      </div>
+      <div class="right">
+        <table class="lc-table">
+          {% for block in section.blocks %}
+          <tr>
+            <th>{{ block.settings.item_title }}</th>
+            <td>{{ block.settings.item_content | newline_to_br }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        <div class="btn-wrap">
+          <a class="btn" href="{{ section.settings.google_map_link }}" target="_blank">Google Map</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .location-info {
+      width: 100%;
+      margin: 80px 0 120px;
+      padding-bottom: 60px;
+    }
+    .location-info .flex {
+      display: flex;
+    }
+    .location-info .left {
+      width: 400px;
+      flex-shrink: 0;
+    }
+    .location-info .left .img-box {
+      width: 100%;
+      height: 100%;
+    }
+    .location-info .left .img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .location-info .right {
+      padding-left: 50px;
+      flex-grow: 1;
+    }
+    .lc-table {
+      width: 100%;
+      background: none;
+      margin-bottom: 30px;
+    }
+    .lc-table th {
+      width: 25%;
+    }
+    .lc-table th,
+    .lc-table td {
+      padding: 8px 0 !important;
+    }
+    @media only screen and (max-width: 589px) {
+      .location-info {
+        margin: 40px 0 20px;
+      }
+      .location-info .flex {
+        display: block;
+      }
+      .location-info .left {
+        width: 100%;
+        flex-shrink: 0;
+      }
+      .location-info .left .img-box {
+        aspect-ratio: 1/.6;
+        margin-bottom: 20px;
+      }
+      .location-info .right {
+        padding-left: 0;
+      }
+      .lc-table {
+        padding-left: 0;
+      }
+      .lc-table th,
+      .lc-table td {
+        font-size: 14px;
+      }
+      .lc-table th {
+        width: 40%;
+      }
+      .btn {
+        font-size: 16px;
+      }
+    }
+  </style>
+</section>
+
+
+{% schema %}
+{
+  "name": "Location Table",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "画像"
+    },
+    {
+      "type": "url",
+      "id": "google_map_link",
+      "label": "Google Map リンク"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "location_item",
+      "name": "項目",
+      "settings": [
+        {
+          "type": "text",
+          "id": "item_title",
+          "label": "項目タイトル",
+          "default": "店舗名"
+        },
+        {
+          "type": "textarea",
+          "id": "item_content",
+          "label": "項目内容",
+          "default": "HILLSIDE SNOW RENTALS 栂池店"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Location Table"
+    }
+  ]
+}
+{% endschema %}
