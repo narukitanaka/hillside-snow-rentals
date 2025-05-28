@@ -108,7 +108,7 @@
         "@media only screen and (max-width: 589px) {.site-footer {padding-top: 40px; }}"
       ],
       "settings": {
-        "show_locale_selector": true,
+        "show_locale_selector": false,
         "show_currency_selector": false,
         "show_currency_flags": false,
         "show_payment_icons": false,
