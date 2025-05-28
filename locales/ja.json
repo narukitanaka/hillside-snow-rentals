@@ -1,0 +1,38 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "cart": {
+    "general": {
+      "title": "カート",
+      "subtotal": "合計",
+      "checkout": "注文する",
+      "shipping_at_checkout": "discount codes calculated at checkout.",
+      "empty": "カートは空です",
+      "remove": "削除",
+      "note": "注文メモ",
+      "discounts": "割引",
+      "update": "カートを更新"
+    },
+    "label": {
+      "quantity": "数量",
+      "total": "小計"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "phone": "電話番号",
+      "message": "お問い合わせ内容",
+      "send": "送信する",
+      "post_success": "お問い合わせありがとうございます。無事送信されました。"
+    }
+  }
+}

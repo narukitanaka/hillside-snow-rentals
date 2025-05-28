@@ -216,12 +216,32 @@
                 margin-left: 5px;
               }
               @media only screen and (max-width: 589px) {
+                .header-item {
+                  gap: 7px;
+                }
                 .header-item--language-switcher {
-                  padding: 2px 4px 1px;
+                  padding: 2px 4px 1px 10px;
                   margin-right: 0;
+                  display: flex;
+                  justify-content: center;
+                }
+                .language-dropdown {
+                  width: 100%;
+                  position: relative;
                 }
                 .language-dropdown__button {
+                  display: block;
+                  width: 100%;
                   gap: 2px;
+                  padding: 0;
+                  text-align: left;
+                }
+                .language-dropdown__button .arrow-down {
+                  position: absolute;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  right: 0;
+                  margin-left: 0;
                 }
               }
             </style>
