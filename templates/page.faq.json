@@ -21,10 +21,10 @@
           "type": "step",
           "settings": {
             "step_number": "STEP01",
-            "step_title": "商品を選んで注文へ進む",
-            "step_description": "<p>商品ページにて、ご利用店舗・ご利用日数・ご利用日・数量・その他オプションを選択し、ご注文手続きへお進みください。<\/p>",
+            "step_title": "Select your products and proceed to order",
+            "step_description": "<p>On the product page, choose your rental location, rental duration, rental date, quantity, and any additional options, then proceed to checkout.<\/p>",
             "step_image": "shopify:\/\/shop_images\/guide-flow_img01.png",
-            "step_button_text": "ご注文はこちらから",
+            "step_button_text": "Start Rental",
             "step_button_link": "shopify:\/\/collections"
           }
         },
@@ -32,8 +32,8 @@
           "type": "step",
           "settings": {
             "step_number": "STEP02",
-            "step_title": "お客様情報の入力とお支払い",
-            "step_description": "<p>ご注文画面にて、お客様情報、ご請求先情報、お支払い情報をご入力ください。お支払い完了後、予約が確定します。<br\/>予約が完了すると、ご登録のメールアドレス宛に予約完了メールが届きます。<br\/><br\/><strong>※提携先の宿泊ホテルからのクーポンコードはこの時にご入力ください。<\/strong><\/p>",
+            "step_title": "Enter your information and make payment",
+            "step_description": "<p>On the order page, please enter your personal details, billing information, and payment details. Your reservation will be confirmed once the payment is completed.<br\/>After your booking is confirmed, a confirmation email will be sent to the registered email address.<br\/><br\/><strong>※Please enter any coupon codes from partner hotels at this stage.<\/strong><\/p>",
             "step_image": "shopify:\/\/shop_images\/guide-flow_img02.png",
             "step_button_text": "",
             "step_button_link": ""
@@ -43,8 +43,8 @@
           "type": "step",
           "settings": {
             "step_number": "STEP03",
-            "step_title": "受け取り＆スキー・スノボを満喫！",
-            "step_description": "<p>ご注文時に選択した店舗にて商品を受け取り、店舗近くのスキー場でスキー・スノーボードをお楽しみください。<\/p><p>ご不明点やお困りのことがございましたら、受け取り店舗までお気軽にご連絡ください。<\/p>",
+            "step_title": "Pick up your gear & enjoy skiing or snowboarding!",
+            "step_description": "<p>Collect your equipment at the store you selected during the order process, then have fun on the nearby ski slopes.<br\/>If you have any questions or need assistance, please feel free to contact the rental store.<\/p>",
             "step_image": "shopify:\/\/shop_images\/AdobeStock_179854495.jpg",
             "step_button_text": "",
             "step_button_link": ""
@@ -56,19 +56,18 @@
         "step_nx36nU",
         "step_9EqKhY"
       ],
-      "name": "User Guide",
       "settings": {
-        "flow_title": "サービス利用の流れ",
-        "payment_title": "お支払いについて",
-        "payment_description": "<p>クレジットカード（VISA \/ Mastercard \/ JCB \/ AMEX）およびPayPalがご利用いただけます。<br\/>ご予約時に全額を前払いでお支払いいただきます。お支払いが完了次第、予約が確定となります。<\/p>",
+        "flow_title": "How to Use",
+        "payment_title": "About Payment",
+        "payment_description": "<p>We accept credit cards (VISA, Mastercard, JCB, AMEX) and PayPal.<br\/>Full payment is required at the time of booking. Your reservation will be confirmed once the payment is completed.<\/p>",
         "payment_image": "shopify:\/\/shop_images\/pay-bland.png",
-        "cancellation_title": "ご予約の変更・キャンセルについて",
-        "cancellation_description": "<p>ご利用日の〇日前までの変更・キャンセルは、お問い合わせフォームまたはお電話にてご連絡ください。<br\/>また、ご予約日を過ぎてもご来店がない場合は、予約をキャンセル扱いとさせていただくことがございます。あらかじめご了承ください。<\/p>",
+        "cancellation_title": "Reservation Changes & Cancellations",
+        "cancellation_description": "<p>For changes or cancellations, please contact us via the inquiry form or by phone at least two days before your rental date.<br\/>If you do not arrive on the reserved date, your booking may be treated as a cancellation. Thank you for your understanding.<\/p>",
         "contact_form_link": "shopify:\/\/pages\/contact",
-        "contact_form_text": "お問い合わせフォーム",
-        "store1_name": "五竜店",
+        "contact_form_text": "Contact Form",
+        "store1_name": "Goryu Shop",
         "store1_phone": "0261-75-2114",
-        "store2_name": "栂池店",
+        "store2_name": "Tsugaike Shop",
         "store2_phone": "0261-71-5287"
       }
     },
@@ -78,7 +77,7 @@
         "faq-0": {
           "type": "rich-text",
           "settings": {
-            "title": "ご注文・ご予約について",
+            "title": "Order & Reservation",
             "text": "",
             "align_text": "left"
           }
@@ -86,56 +85,56 @@
         "faq-1": {
           "type": "question",
           "settings": {
-            "title": "いつから予約できますか？",
-            "text": "<p>ご利用希望日の6ヶ月前よりご予約いただけます。<\/p>"
+            "title": "When can I make a reservation?",
+            "text": "<p>Reservations can be made up to six months in advance of your desired rental date.<\/p>"
           }
         },
         "faq-2": {
           "type": "question",
           "settings": {
-            "title": "同時に複数人分予約できますか？",
-            "text": "<p>はい、商品ページにて人数分の数量を選択いただければ、まとめてご予約可能です。<\/p>"
+            "title": "Can I make a reservation for multiple people at once?",
+            "text": "<p>Yes, you can make a reservation for multiple people at once.<br\/>Simply select the quantity for each item on the product page according to the number of people, and proceed with the reservation.<\/p>"
           }
         },
         "question_hQfcdV": {
           "type": "question",
           "settings": {
-            "title": "予約確認メールが届きません。",
-            "text": "<p>迷惑メールフォルダをご確認ください。それでも見つからない場合はお手数ですが一度お問い合わせください。<\/p>"
+            "title": "I haven’t received my reservation confirmation email.",
+            "text": "<p>Please check your spam or junk mail folder.<br\/>If you still cannot find the confirmation email, please don't hesitate to contact us for assistance.<\/p>"
           }
         },
         "question_999h6g": {
           "type": "question",
           "settings": {
-            "title": "手ぶらでも大丈夫ですか？",
-            "text": "<p>はい、大丈夫です！<br\/>スキーウェア、ゴーグル、グローブなど、必要なアイテムはほとんどレンタルできます。<br\/>インナーや靴下などの直接肌に触れるもの以外は、基本的にレンタル可能ですのでご安心ください。<br\/>また、スキー・スノーボードに最適な靴下の販売もございます。<\/p>"
+            "title": "Is it okay if I come without bringing any gear?",
+            "text": "<p>Yes, absolutely!<br\/>You can rent almost everything you need, including ski wear, goggles, gloves, and more.<br\/>Except for items that directly touch your skin, like base layers and socks, most gear is available for rent, so please rest assured.<br\/>We also sell ski and snowboard-specific socks for your convenience.<\/p>"
           }
         },
         "question_xDHm4d": {
           "type": "question",
           "settings": {
-            "title": "レンタル品はいつ受け取れますか？",
-            "text": "<p>レンタル開始日の前日15:00以降に、受付とお受け取りが可能です。<br\/>当日の朝は混雑しやすいため、前日の夕方にお越しいただくとスムーズです。<\/p>"
+            "title": "When can I pick up my rental gear?",
+            "text": "<p>You can check in and pick up your rental equipment anytime after 3:00 PM on the day before your rental start date.<br\/>Since mornings on the rental day tend to be busy, we recommend coming the evening before for a smoother experience.<\/p>"
           }
         },
         "question_R3qRDc": {
           "type": "question",
           "settings": {
-            "title": "商品を配送してもらうことはできますか？",
-            "text": "<p>恐れ入りますが、商品の配送は行っておりません。<br\/>お客様一人ひとりに合った最適なサイズ・モデルをご提供するため、<br\/>店舗にて実際にフィッティングを行っていただいております。<br\/>安全で快適にご利用いただくための大切なプロセスですので、ご理解のほどお願いいたします。<\/p>"
+            "title": "Is it possible to have the items delivered?",
+            "text": "<p>We apologize, but we do not offer delivery services.<br\/>To ensure the best fit and model for each customer, we require fittings to be done in-store.<br\/>This is an important process to guarantee your safety and comfort while using our equipment.<br\/>Thank you for your understanding.<\/p>"
           }
         },
         "question_cyfFwn": {
           "type": "question",
           "settings": {
-            "title": "当日、レンタルアイテムのランクを変更できますか？",
-            "text": "<p>はい、できます。<br\/>スタンダードモデルをご利用中に、ハイクオリティやプレミアムモデルに変更したい場合は、現物をご確認いただいたうえで当日でもランクアップが可能です。<br\/>※その際、差額をお支払いいただきます。<br\/><br\/>ただし、スタンダードモデルへのランクダウン（例：プレミアム → スタンダードなど）はできませんので、ご了承ください。<\/p>"
+            "title": "Can I change the rental item grade on the day of pick-up?",
+            "text": "<p>Yes, you can.<br\/>If you are currently using a Standard model and wish to upgrade to a High-Quality or Premium model, you can do so on the day after checking the actual equipment.<br\/>Please note that any price difference will need to be paid at that time.<br\/><br\/>However, please understand that downgrading to a Standard model (e.g., Premium to Standard) is not possible.<\/p>"
           }
         },
         "faq-3": {
           "type": "rich-text",
           "settings": {
-            "title": "商品・サイズについて",
+            "title": "Product & Size",
             "text": "",
             "align_text": "left"
           }
@@ -143,28 +142,28 @@
         "faq-4": {
           "type": "question",
           "settings": {
-            "title": "サイズが合うか不安です。",
-            "text": "<p>身長・体重・足のサイズをご入力いただければ、適正サイズをご案内します。<\/p>"
+            "title": "I’m a bit worried about the sizing.",
+            "text": "<p>If you provide your height, weight, and foot size, we will recommend the appropriate size for you.<\/p>"
           }
         },
         "question_YJMqwA": {
           "type": "question",
           "settings": {
-            "title": "キッズ用のレンタルもありますか？",
-            "text": "<p>はい、お子さま用のスキー・スノーボードセットも取り揃えております。<\/p>"
+            "title": "Do you offer rentals for children?",
+            "text": "<p>Yes, we also offer ski and snowboard sets for children.<\/p>"
           }
         },
         "question_74iEc7": {
           "type": "question",
           "settings": {
-            "title": "好きなメーカーの商品を選択することはできますか？",
-            "text": "<p>当日の在庫状況によりますが、商品受取時にご利用店舗にてご希望のメーカーをお伝えください。可能な範囲でご対応いたします。<\/p>"
+            "title": "Can I choose equipment from my preferred brand?",
+            "text": "<p>Depending on the availability on the day, please let the rental store know your preferred brand when you pick up your equipment. We will do our best to accommodate your request.<\/p>"
           }
         },
         "rich_text_ngN87m": {
           "type": "rich-text",
           "settings": {
-            "title": "お支払い・変更について",
+            "title": "Payment & Changes",
             "text": "",
             "align_text": "left"
           }
@@ -172,22 +171,22 @@
         "question_qnmNRc": {
           "type": "question",
           "settings": {
-            "title": "お支払い方法を変更できますか？",
-            "text": "<p>一度確定した予約のお支払い方法の変更はできません。キャンセル後、再予約をお願いいたします。<\/p>"
+            "title": "Can I change my payment method?",
+            "text": "<p>Once a reservation is confirmed, the payment method cannot be changed.<br\/>If you wish to use a different payment method, please cancel the existing reservation and make a new one.<\/p>"
           }
         },
         "question_Me9pB7": {
           "type": "question",
           "settings": {
-            "title": "キャンセル料はかかりますか？",
-            "text": "<p>ご利用日48時間前までは無料です。それ以降はキャンセル料が発生いたします。<\/p>"
+            "title": "Are there any cancellation fees?",
+            "text": "<p>Cancellations made up to 48 hours before the rental date are free of charge.<br\/>Cancellations made within 48 hours of the rental date will incur a cancellation fee.<\/p>"
           }
         },
         "question_MWXBfr": {
           "type": "question",
           "settings": {
-            "title": "延長はできますか？",
-            "text": "<p>利用期間の延長をご希望の場合は、事前に利用店舗までご連絡ください（追加料金が発生します）。<\/p>"
+            "title": "Is it possible to extend the rental period?",
+            "text": "<p>If you wish to extend your rental period, please contact the rental store in advance. (Additional fees will apply.)<\/p>"
           }
         }
       },
@@ -218,7 +217,7 @@
         "@media only screen and (max-width: 589px) {.h2 {font-size: 18px !important; padding-left: 0; margin-bottom: -20px; }}"
       ],
       "settings": {
-        "title": "よくあるご質問"
+        "title": "FAQ"
       }
     }
   },

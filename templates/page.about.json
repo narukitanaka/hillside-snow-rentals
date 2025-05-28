@@ -41,7 +41,6 @@
         ".enlarge-text a::before {position: absolute; top: 15px; right: -25px; width: 0; height: 0; border-style: solid; border-right: 7px solid transparent; border-left: 7px solid transparent; border-top: 10px solid #3a6c60; border-bottom: 0;}",
         "@media only screen and (max-width: 589px) {.index-section {margin-bottom: 80px; }}"
       ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -74,7 +73,6 @@
         "p {font-size: 18px;}",
         "@media only screen and (max-width: 589px) {p {font-size: 15px; }}"
       ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -127,82 +125,42 @@
         "lazyload_images": true
       }
     },
-    "advanced_content_4CMkhe": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_9aBjcX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/goryu_shop_img01.jpg",
-            "link": "",
-            "width": "33%",
-            "alignment": "top-middle"
-          }
-        },
-        "liquid_dxcjh8": {
-          "type": "liquid",
-          "settings": {
-            "code": "<table class=lc-table>\n  <tr>\n    <th>店舗名<\/th>\n    <td>HILLSIDE SNOW RENTALS 五竜店<\/td>\n  <\/tr>\n  <tr>\n    <th>所在地<\/th>\n    <td>〒399-9211 長野県北安曇郡白馬村神城22186-2 1F<\/td>\n  <\/tr>\n  <tr>\n    <th>電話番号<\/th>\n    <td>0261-75-2114<\/td>\n  <\/tr>\n  <tr>\n    <th>営業時間<\/th>\n    <td>07:00～17:00<\/td>\n  <\/tr>\n  <tr>\n    <th>最寄りのスキー場<\/th>\n    <td>エイブル白馬五竜スキー場<\/td>\n<\/table>\n<div class=\"btn-wrap\">\n <a class=\"btn\" href=\"https:\/\/maps.app.goo.gl\/DEp7MELAy76dQj888\" target=\"_blank\">Google Map<\/a>\n<\/div>",
-            "width": "66%",
-            "alignment": "top-middle"
-          }
-        }
-      },
-      "block_order": [
-        "image_9aBjcX",
-        "liquid_dxcjh8"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".index-section {padding-bottom: 60px;}",
-        ".lc-table {width: 100%; background: none; padding-left: 20px;}",
-        ".lc-table th {width: 25%;}",
-        ".lc-table th,.lc-table td {padding: 8px 0 !important;}",
-        "@media only screen and (max-width: 589px) {.lc-table {padding-left: 0; } .lc-table th {width: 36%; }}"
-      ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
     "location_table_wBiUEQ": {
       "type": "location-table",
       "blocks": {
         "location_item_LtBe3e": {
           "type": "location_item",
           "settings": {
-            "item_title": "店舗名",
-            "item_content": "HILLSIDE SNOW RENTALS 五竜店"
+            "item_title": "Shop Name",
+            "item_content": "HILLSIDE SNOW RENTALS Goryu"
           }
         },
         "location_item_eJDC89": {
           "type": "location_item",
           "settings": {
-            "item_title": "所在地",
-            "item_content": "〒399-9211 \n長野県北安曇郡白馬村神城22186-2 1F"
+            "item_title": "Address",
+            "item_content": "1F, 22186-2 Kamishiro, Hakuba Village, Kitaazumi-gun, Nagano 399-9211"
           }
         },
         "location_item_3CJMCp": {
           "type": "location_item",
           "settings": {
-            "item_title": "電話番号",
+            "item_title": "Phone Number",
             "item_content": "0261-75-2114"
           }
         },
         "location_item_r8GfH4": {
           "type": "location_item",
           "settings": {
-            "item_title": "営業時間",
-            "item_content": "07:00～17:00"
+            "item_title": "Business Hours",
+            "item_content": "7:00 AM – 5:00 PM"
           }
         },
         "location_item_EY9zUm": {
           "type": "location_item",
           "settings": {
-            "item_title": "最寄りのスキー場",
-            "item_content": "エイブル白馬五竜スキー場"
+            "item_title": "Nearest Ski Resort",
+            "item_content": "Able Hakuba Goryu Ski Resort"
           }
         }
       },
@@ -213,7 +171,6 @@
         "location_item_r8GfH4",
         "location_item_EY9zUm"
       ],
-      "name": "Location Table",
       "settings": {
         "image": "shopify:\/\/shop_images\/goryu_shop_img01.jpg",
         "google_map_link": "https:\/\/maps.app.goo.gl\/1cnqokozqFUg464g9"
@@ -245,7 +202,6 @@
         "p {font-size: 18px;}",
         "@media only screen and (max-width: 589px) {p {font-size: 15px; }}"
       ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -288,7 +244,6 @@
         "image_Pjx94p",
         "image_WNd6Bq"
       ],
-      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
       "settings": {
         "section_height": "550px",
         "mobile_height": "250px",
@@ -299,75 +254,42 @@
         "lazyload_images": true
       }
     },
-    "advanced_content_3q9kjm": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_GngKMc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_5067-scaled_00d5bfbd-8ba2-48c9-adf8-653ee884f681.jpg",
-            "link": "",
-            "width": "33%",
-            "alignment": "top-middle"
-          }
-        },
-        "liquid_dJRwbx": {
-          "type": "liquid",
-          "settings": {
-            "code": "<table class=lc-table>\n  <tr>\n    <th>店舗名<\/th>\n    <td>HILLSIDE SNOW RENTALS 栂池店<\/td>\n  <\/tr>\n  <tr>\n    <th>所在地<\/th>\n    <td>〒399-9422 長野県北安曇郡小谷村千国乙12840-1　ホテルサンプラザ栂池 1F<\/td>\n  <\/tr>\n  <tr>\n    <th>電話番号<\/th>\n    <td>0261-71-5287<\/td>\n  <\/tr>\n  <tr>\n    <th>営業時間<\/th>\n    <td>07:00～17:00<\/td>\n  <\/tr>\n  <tr>\n    <th>最寄りのスキー場<\/th>\n    <td>栂池高原スキー場<\/td>\n<\/table>\n<div class=\"btn-wrap\">\n <a class=\"btn\" href=\"https:\/\/maps.app.goo.gl\/Kf1Q5ZCBLAX4oXVW7\" target=\"_blank\">Google Map<\/a>\n<\/div>",
-            "width": "66%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_GngKMc",
-        "liquid_dJRwbx"
-      ],
-      "disabled": true,
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
     "location_table_pzVxYw": {
       "type": "location-table",
       "blocks": {
         "location_item_LfVmkH": {
           "type": "location_item",
           "settings": {
-            "item_title": "店舗名",
-            "item_content": "HILLSIDE SNOW RENTALS 栂池店"
+            "item_title": "Shop Name",
+            "item_content": "HILLSIDE SNOW RENTALS Tsugaike"
           }
         },
         "location_item_kmCeVf": {
           "type": "location_item",
           "settings": {
-            "item_title": "所在地",
-            "item_content": "〒399-9422\n長野県北安曇郡小谷村千国乙12840-1　ホテルサンプラザ栂池 1F"
+            "item_title": "Address",
+            "item_content": "1F, Hotel Sunplaza Tsugaike, 12840-1 Chikuni-Otsu, Otari Village, Kitaazumi-gun, Nagano 399-9422"
           }
         },
         "location_item_YPraba": {
           "type": "location_item",
           "settings": {
-            "item_title": "電話番号",
+            "item_title": "Phone Number",
             "item_content": "0261-71-5287"
           }
         },
         "location_item_dJ49wp": {
           "type": "location_item",
           "settings": {
-            "item_title": "営業時間",
-            "item_content": "07:00～17:00"
+            "item_title": "Business Hours",
+            "item_content": "7:00 AM – 5:00 PM"
           }
         },
         "location_item_XAei37": {
           "type": "location_item",
           "settings": {
-            "item_title": "最寄りのスキー場",
-            "item_content": "栂池高原スキー場"
+            "item_title": "Nearest Ski Resort",
+            "item_content": "Tsugaike Kogen Ski Resort"
           }
         }
       },
@@ -378,7 +300,6 @@
         "location_item_dJ49wp",
         "location_item_XAei37"
       ],
-      "name": "Location table",
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_5067-scaled_00d5bfbd-8ba2-48c9-adf8-653ee884f681.jpg",
         "google_map_link": "https:\/\/maps.app.goo.gl\/GVQ2M4rqbSpcBV6s8"
@@ -390,11 +311,9 @@
     "rich_text_LU3bq6",
     "rich_text_zBQKq6",
     "slideshow",
-    "advanced_content_4CMkhe",
     "location_table_wBiUEQ",
     "rich_text_WVbwBP",
     "slideshow_7zhWmz",
-    "advanced_content_3q9kjm",
     "location_table_pzVxYw"
   ]
 }

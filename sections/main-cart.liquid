@@ -5,7 +5,18 @@
   <header class="section-header text-center{% if cart.item_count == 0 %} section-header--404{% endif %}">
     <h1 class="section-header__title">{{ 'cart.general.title' | t }}</h1>
     <div class="rte text-spacing">
-      <p>{{ 'cart.general.continue_browsing_html' | t: url: routes.all_products_collection_url }}</p>
+      {% comment %} <p>{{ 'cart.general.continue_browsing_html' | t: url: routes.all_products_collection_url }}</p> {% endcomment %}
+      <a href="/{{ request.locale.iso_code }}/collections">
+        <p style="display: inline-block;">
+          {% if request.locale.iso_code == 'zh-CN' %}
+            继续购物
+          {% elsif request.locale.iso_code == 'zh-TW' %}
+            繼續購物
+          {% else %}
+            Contenu Shopping
+          {% endif %}
+        </p>
+      </a>
     </div>
   </header>
 
