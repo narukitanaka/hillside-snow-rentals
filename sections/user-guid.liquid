@@ -1,83 +1,47 @@
 <section class="user-guide">
   <div class="page-width page-width--narrow">
     <div class="block">
-      <h3>サービス利用の流れ</h3>
+      <h3>{{ section.settings.flow_title }}</h3>
       
+      {% for block in section.blocks %}
       <div class="box">
-        <div class="step">STEP01</div>
+        <div class="step">{{ block.settings.step_number }}</div>
         <div class="flex">
           <div class="text">
-            <h4>商品を選んで注文へ進む</h4>
-            <div class="img-box"><img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/guide-flow_img01.png" alt=""></div>
-            <p>
-              商品ページにて、ご利用店舗・ご利用日数・ご利用日・数量・その他オプションを選択し、ご注文手続きへお進みください。
-            </p>
-            <a class="btn" href="/collections">ご注文はこちらから</a>
+            <h4>{{ block.settings.step_title }}</h4>
+            <div class="img-box"><img src="{{ block.settings.step_image | img_url: 'master' }}" alt=""></div>
+            <p>{{ block.settings.step_description }}</p>
+            {% if block.settings.step_button_text and block.settings.step_button_link %}
+            <a class="btn" href="{{ block.settings.step_button_link }}">{{ block.settings.step_button_text }}</a>
+            {% endif %}
           </div>
-          <div class="img-box"><img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/guide-flow_img01.png" alt=""></div>
+          <div class="img-box"><img src="{{ block.settings.step_image | img_url: 'master' }}" alt=""></div>
         </div>
       </div>
-  
-      <div class="box">
-        <div class="step">STEP02</div>
-        <div class="flex">
-          <div class="text">
-            <h4>お客様情報の入力とお支払い</h4>
-            <div class="img-box"><img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/guide-flow_img02.png" alt=""></div>
-            <p>
-              ご注文画面にて、お客様情報、ご請求先情報、お支払い情報をご入力ください。お支払い完了後、予約が確定します。<br>
-              予約が完了すると、ご登録のメールアドレス宛に予約完了メールが届きます。
-            </p>
-            <p>
-              <small>※提携先の宿泊ホテルからのクーポンコードはこの時にご入力ください。</small>
-            </p>
-          </div>
-          <div class="img-box"><img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/guide-flow_img02.png" alt=""></div>
-        </div>
-      </div>
-  
-      <div class="box">
-        <div class="step">STEP03</div>
-        <div class="flex">
-          <div class="text">
-            <h4>受け取り＆スキー・スノボを満喫！</h4>
-            <div class="img-box"><img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/AdobeStock_179854495.jpg" alt=""></div>
-            <p>
-              ご注文時に選択した店舗にて商品を受け取り、店舗近くのスキー場でスキー・スノーボードをお楽しみください。<br>
-              ご不明点やお困りのことがございましたら、受け取り店舗までお気軽にご連絡ください。
-            </p>
-          </div>
-          <div class="img-box"><img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/AdobeStock_179854495.jpg" alt=""></div>
-        </div>
-      </div>
-  
+      {% endfor %}
     </div>
   
     <div class="block">
-      <h3>お支払いについて</h3>
-      <p>
-        クレジットカード（VISA / Mastercard / JCB / AMEX）およびPayPalがご利用いただけます。<br>
-        ご予約時に全額を前払いでお支払いいただきます。お支払いが完了次第、予約が確定となります。
-      </p>
-      <div class="img-box"><img src="https://cdn.shopify.com/s/files/1/0703/7534/2261/files/pay-bland.png" alt=""></div>
+      <h3>{{ section.settings.payment_title }}</h3>
+      <p>{{ section.settings.payment_description }}</p>
+      <div class="img-box"><img src="{{ section.settings.payment_image | img_url: 'master' }}" alt=""></div>
     </div>
   
     <div class="block">
-      <h3>ご予約の変更・キャンセルについて</h3>
-      <p>
-        ご利用日の〇日前までの変更・キャンセルは、お問い合わせフォームまたはお電話にてご連絡ください。<br>
-        また、ご予約日を過ぎてもご来店がない場合は、予約をキャンセル扱いとさせていただくことがございます。あらかじめご了承ください。
-      </p>
+      <h3>{{ section.settings.cancellation_title }}</h3>
+      <p>{{ section.settings.cancellation_description }}</p>
       <div class="contact">
-        <a class="btn" href="">お問い合わせフォーム</a>
+        {% if section.settings.contact_form_link %}
+        <a class="btn" href="{{ section.settings.contact_form_link }}">{{ section.settings.contact_form_text }}</a>
+        {% endif %}
         <div class="tel">
           <dl>
-            <dt>五竜店</dt>
-            <dd><a href="tel:0261-75-2114">Tel.0261-75-2114</a></dd>
+            <dt>{{ section.settings.store1_name }}</dt>
+            <dd><a href="tel:{{ section.settings.store1_phone }}">Tel.{{ section.settings.store1_phone }}</a></dd>
           </dl>
           <dl>
-            <dt>栂池店</dt>
-            <dd><a href="tel:0261-71-5287">Tel.0261-71-5287</a></dd>
+            <dt>{{ section.settings.store2_name }}</dt>
+            <dd><a href="tel:{{ section.settings.store2_phone }}">Tel.{{ section.settings.store2_phone }}</a></dd>
           </dl>
         </div>
       </div>
@@ -154,14 +118,10 @@
   .box .img-box {
     width: 38%;
     height: 100%;
-    aspect-ratio: 1/.7;
     flex-shrink: 0;
   }
   .box .img-box img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
   }
   .contact {
     margin-top: 30px;
@@ -219,6 +179,14 @@
     .box .flex >.img-box {
       display: none;
     }
+    .box .img-box {
+      aspect-ratio: 1/.7;
+    }
+    .box .img-box img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
     .box .flex .text:has(.btn) p {
       margin-bottom: 30px !important;
     }
@@ -230,10 +198,121 @@
   </style>
 </section>
 
+
 {% schema %}
 {
   "name": "User Guide",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "flow_title",
+      "label": "サービス利用の流れのタイトル",
+      "default": "サービス利用の流れ"
+    },
+    {
+      "type": "text",
+      "id": "payment_title",
+      "label": "お支払いについてのタイトル",
+      "default": "お支払いについて"
+    },
+    {
+      "type": "richtext",
+      "id": "payment_description",
+      "label": "お支払いについての説明"
+    },
+    {
+      "type": "image_picker",
+      "id": "payment_image",
+      "label": "お支払いについての画像"
+    },
+    {
+      "type": "text",
+      "id": "cancellation_title",
+      "label": "ご予約の変更・キャンセルについてのタイトル",
+      "default": "ご予約の変更・キャンセルについて"
+    },
+    {
+      "type": "richtext",
+      "id": "cancellation_description",
+      "label": "ご予約の変更・キャンセルについての説明"
+    },
+    {
+      "type": "url",
+      "id": "contact_form_link",
+      "label": "お問い合わせフォームのリンク"
+    },
+    {
+      "type": "text",
+      "id": "contact_form_text",
+      "label": "お問い合わせフォームのボタンテキスト",
+      "default": "お問い合わせフォーム"
+    },
+    {
+      "type": "text",
+      "id": "store1_name",
+      "label": "店舗1の名前",
+      "default": "五竜店"
+    },
+    {
+      "type": "text",
+      "id": "store1_phone",
+      "label": "店舗1の電話番号",
+      "default": "0261-75-2114"
+    },
+    {
+      "type": "text",
+      "id": "store2_name",
+      "label": "店舗2の名前",
+      "default": "栂池店"
+    },
+    {
+      "type": "text",
+      "id": "store2_phone",
+      "label": "店舗2の電話番号",
+      "default": "0261-71-5287"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "ステップ",
+      "settings": [
+        {
+          "type": "text",
+          "id": "step_number",
+          "label": "ステップ番号",
+          "default": "STEP01"
+        },
+        {
+          "type": "text",
+          "id": "step_title",
+          "label": "ステップタイトル",
+          "default": "商品を選んで注文へ進む"
+        },
+        {
+          "type": "richtext",
+          "id": "step_description",
+          "label": "ステップ説明"
+        },
+        {
+          "type": "image_picker",
+          "id": "step_image",
+          "label": "ステップ画像"
+        },
+        {
+          "type": "text",
+          "id": "step_button_text",
+          "label": "ボタンテキスト",
+          "default": "ご注文はこちらから"
+        },
+        {
+          "type": "url",
+          "id": "step_button_link",
+          "label": "ボタンリンク"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "User Guide"

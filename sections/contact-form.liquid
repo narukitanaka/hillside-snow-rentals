@@ -15,11 +15,11 @@
       {%- assign form_id = 'contact-' | append: section.id -%}
       {%- form 'contact', id: form_id -%}
 
-        {%- if form.posted_successfully? -%}
+        {% comment %} {%- if form.posted_successfully? -%}
           <p class="note note--success">
             {{ 'contact.form.post_success' | t }}
           </p>
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
 
         {{ form.errors | default_errors }}
 
@@ -74,6 +74,11 @@
           bottom right corner of the page.
         {% endcomment %}
         {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+        {%- if form.posted_successfully? -%}
+          <p class="note note--success">
+            {{ 'contact.form.post_success' | t }}
+          </p>
+        {%- endif -%}
 
       {%- endform -%}
     </div>
