@@ -6,7 +6,7 @@
     <h1 class="section-header__title">{{ 'cart.general.title' | t }}</h1>
     <div class="rte text-spacing">
       {% comment %} <p>{{ 'cart.general.continue_browsing_html' | t: url: routes.all_products_collection_url }}</p> {% endcomment %}
-      <a href="/{{ request.locale.iso_code }}/collections">
+      {% comment %} <a href="/{{ request.locale.iso_code }}/collections">
         <p style="display: inline-block;">
           {% if request.locale.iso_code == 'zh-CN' %}
             继续购物
@@ -18,7 +18,24 @@
             Contenu Shopping
           {% endif %}
         </p>
-      </a>
+      </a> {% endcomment %}
+      {% if request.locale.iso_code == 'zh-CN' %}
+        <a href="/{{ request.locale.iso_code }}/collections">
+          <p style="display: inline-block;">继续购物</p>
+        </a>
+      {% elsif request.locale.iso_code == 'zh-TW' %}
+        <a href="/{{ request.locale.iso_code }}/collections">
+          <p style="display: inline-block;">繼續購物</p>
+        </a>
+      {% elsif request.locale.iso_code == 'ja' %}
+        <a href="/{{ request.locale.iso_code }}/collections">
+          <p style="display: inline-block;">続けて商品を追加する</p>
+        </a>
+      {% else %}
+        <a href="/collections">
+          <p style="display: inline-block;">Contenu Shopping</p>
+        </a>
+      {% endif %}
     </div>
   </header>
 

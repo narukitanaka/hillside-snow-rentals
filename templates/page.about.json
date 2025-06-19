@@ -39,7 +39,7 @@
         ".enlarge-text p {display: flex; justify-content: center; gap: 20px;}",
         ".enlarge-text a {color: #3a6c6c;}",
         ".enlarge-text a::before {position: absolute; top: 15px; right: -25px; width: 0; height: 0; border-style: solid; border-right: 7px solid transparent; border-left: 7px solid transparent; border-top: 10px solid #3a6c60; border-bottom: 0;}",
-        "@media only screen and (max-width: 589px) {.index-section {margin-bottom: 80px; }}"
+        "@media only screen and (max-width: 589px) {.index-section {margin-bottom: 80px; } .enlarge-text a::before {top: 10px; }}"
       ],
       "settings": {
         "align_text": "center",
@@ -71,7 +71,7 @@
       "custom_css": [
         ".index-section {padding-top: 150px; margin-top: -150px; margin-bottom: 40px;}",
         "p {font-size: 18px;}",
-        "@media only screen and (max-width: 589px) {p {font-size: 15px; }}"
+        "@media only screen and (max-width: 589px) {h2 {font-size: 24px; } p {font-size: 15px; }}"
       ],
       "settings": {
         "align_text": "center",
@@ -146,7 +146,7 @@
           "type": "location_item",
           "settings": {
             "item_title": "Phone Number",
-            "item_content": "0261-75-2114"
+            "item_content": "+81 261 75 2114"
           }
         },
         "location_item_r8GfH4": {
@@ -200,7 +200,7 @@
       "custom_css": [
         ".index-section {padding-top: 150px; margin-top: -150px; margin-bottom: 40px;}",
         "p {font-size: 18px;}",
-        "@media only screen and (max-width: 589px) {p {font-size: 15px; }}"
+        "@media only screen and (max-width: 589px) {h2 {font-size: 24px; } p {font-size: 15px; }}"
       ],
       "settings": {
         "align_text": "center",
@@ -275,7 +275,7 @@
           "type": "location_item",
           "settings": {
             "item_title": "Phone Number",
-            "item_content": "0261-71-5287"
+            "item_content": "+81 261 75 5287"
           }
         },
         "location_item_dJ49wp": {

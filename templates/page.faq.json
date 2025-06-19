@@ -23,7 +23,7 @@
             "step_number": "STEP01",
             "step_title": "Select your products and proceed to order",
             "step_description": "<p>On the product page, choose your rental location, rental duration, rental date, quantity, and any additional options, then proceed to checkout.<\/p>",
-            "step_image": "shopify:\/\/shop_images\/guide-flow_img01.png",
+            "step_image": "shopify:\/\/shop_images\/9057911cdf02f4cd0ab22a64e8fd9445.png",
             "step_button_text": "Start Rental",
             "step_button_link": "shopify:\/\/collections"
           }
@@ -34,7 +34,7 @@
             "step_number": "STEP02",
             "step_title": "Enter your information and make payment",
             "step_description": "<p>On the order page, please enter your personal details, billing information, and payment details. Your reservation will be confirmed once the payment is completed.<br\/>After your booking is confirmed, a confirmation email will be sent to the registered email address.<br\/><br\/><strong>※Please enter any coupon codes from partner hotels at this stage.<\/strong><\/p>",
-            "step_image": "shopify:\/\/shop_images\/guide-flow_img02.png",
+            "step_image": "shopify:\/\/shop_images\/Group_243.jpg",
             "step_button_text": "",
             "step_button_link": ""
           }
@@ -59,16 +59,16 @@
       "settings": {
         "flow_title": "How to Use",
         "payment_title": "About Payment",
-        "payment_description": "<p>We accept credit cards (VISA, Mastercard, JCB, AMEX) and PayPal.<br\/>Full payment is required at the time of booking. Your reservation will be confirmed once the payment is completed.<\/p>",
-        "payment_image": "shopify:\/\/shop_images\/pay-bland.png",
+        "payment_description": "<p>We accept credit cards (VISA, Mastercard, JCB, AMEX) .<br\/>Full payment is required at the time of booking. Your reservation will be confirmed once the payment is completed.<\/p>",
+        "payment_image": "shopify:\/\/shop_images\/pay-bland02.png",
         "cancellation_title": "Reservation Changes & Cancellations",
         "cancellation_description": "<p>For changes or cancellations, please contact us via the inquiry form or by phone at least two days before your rental date.<br\/>If you do not arrive on the reserved date, your booking may be treated as a cancellation. Thank you for your understanding.<\/p>",
         "contact_form_link": "shopify:\/\/pages\/contact",
         "contact_form_text": "Contact Form",
         "store1_name": "Goryu Shop",
-        "store1_phone": "0261-75-2114",
+        "store1_phone": "+81 261 75 2114",
         "store2_name": "Tsugaike Shop",
-        "store2_phone": "0261-71-5287"
+        "store2_phone": "+81 261 75 5287"
       }
     },
     "faq": {
@@ -84,9 +84,10 @@
         },
         "faq-1": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "When can I make a reservation?",
-            "text": "<p>Reservations can be made up to six months in advance of your desired rental date.<\/p>"
+            "text": "<p>Reservations can be made up to approximately eight months in advance of your desired rental date.<\/p>"
           }
         },
         "faq-2": {

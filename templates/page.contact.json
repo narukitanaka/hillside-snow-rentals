@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -18,7 +27,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>am7:00 - pm5:00<\/p><p><strong>五竜店<\/strong>：<a href=\"tel:0261752114\" title=\"tel:0261752114\">0261-75-2114<\/a><br\/><strong>栂池店<\/strong>：<a href=\"tel:0261715287\" title=\"tel:0261715287\">0261-71-5287<\/a><\/p>"
+            "text": "<p>am7:00 - pm5:00<\/p><p><strong>Goryu　  <\/strong>：<a href=\"tel:+81261752114\" title=\"tel:+81261752114\">+81 261 75 2114<\/a><br\/><strong>Tsugaike<\/strong>：<a href=\"tel:+81261715287\" title=\"tel:+81261715287\">+81 261 75 5287<\/a><\/p>"
           }
         }
       },
@@ -41,6 +50,7 @@
         ".custom-contact {padding: 40px; background-color: #f5f5f5;}",
         ".custom-contact input,.custom-contact textarea {background-color: #fff; border: 1px solid #011229;}",
         "p {display: none;}",
+        ".note {display: block;}",
         "@media only screen and (min-width: 590px) {.custom-contact {max-width: 800px; }}"
       ],
       "settings": {
