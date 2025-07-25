@@ -366,7 +366,7 @@
     "general": {
       "title": "大车",
       "remove": "消除",
-      "note": "订单备注",
+      "note": "计划酒店名称",
       "subtotal": "小计",
       "discounts": "折扣",
       "shipping_at_checkout": "结账时计算运费、税费和折扣代码。",

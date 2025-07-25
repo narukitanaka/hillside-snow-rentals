@@ -310,7 +310,7 @@
     "general": {
       "title": "大車",
       "remove": "消除",
-      "note": "訂單備註",
+      "note": "計劃酒店名稱",
       "subtotal": "小計",
       "discounts": "折扣",
       "shipping_at_checkout": "結帳時計算運費、稅金和折扣代碼。",

@@ -20,15 +20,15 @@
         </p>
       </a> {% endcomment %}
       {% if request.locale.iso_code == 'zh-CN' %}
-        <a href="/{{ request.locale.iso_code }}/collections">
+        <a href="/zh-hans/collections">
           <p style="display: inline-block;">继续购物</p>
         </a>
       {% elsif request.locale.iso_code == 'zh-TW' %}
-        <a href="/{{ request.locale.iso_code }}/collections">
+        <a href="/zh-hant/collections">
           <p style="display: inline-block;">繼續購物</p>
         </a>
       {% elsif request.locale.iso_code == 'ja' %}
-        <a href="/{{ request.locale.iso_code }}/collections">
+        <a href="/ja/collections">
           <p style="display: inline-block;">続けて商品を追加する</p>
         </a>
       {% else %}

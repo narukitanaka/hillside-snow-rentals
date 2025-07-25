@@ -16,7 +16,7 @@
       "shipping_at_checkout": "discount codes calculated at checkout.",
       "empty": "カートは空です",
       "remove": "削除",
-      "note": "注文メモ",
+      "note": "滞在予定のホテル名",
       "discounts": "割引",
       "update": "カートを更新"
     },

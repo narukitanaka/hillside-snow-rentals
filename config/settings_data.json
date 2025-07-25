@@ -59,6 +59,7 @@
     "enable_swatches": false,
     "cart_type": "drawer",
     "cart_icon": "cart",
+    "cart_notes_enable": true,
     "social_facebook_link": "",
     "social_instagram_link": "https://www.instagram.com/hillsidesnowrental/",
     "favicon": "shopify://shop_images/favicon.png",
